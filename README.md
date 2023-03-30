@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Bruno Cesar Santos
+* Bruno Cesar Dias Santos 
 * Vínicius Viera Silva
 * Lorenzo Grei Ribeiro
 * Láisa Liane da Silva Marinho Costa
