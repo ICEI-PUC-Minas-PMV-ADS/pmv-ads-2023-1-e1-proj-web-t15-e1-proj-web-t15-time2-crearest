@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruno Cesar Santos
 * Vínicius Viera Silva
 * Lorenzo Grei Ribeiro
-* Laísa
+* Láisa Liane da Silva Marinho Costa
 * Maria Júlia Guimarães Figueiredo
 * João Vitor
 
