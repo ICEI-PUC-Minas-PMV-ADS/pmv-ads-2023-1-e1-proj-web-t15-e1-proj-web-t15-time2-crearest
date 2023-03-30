@@ -7,20 +7,15 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 
 Portanto é uma necessidade para algumas pessoas, um local onde seja possível alcançar essas orientações, a fim de trazer uma vida mais saudável e com menos riscos alimentares.
 
-## <h2>Objetivos</h2>
+## Objetivos
 
-<p>O objetivo geral deste projeto é estruturar um site de receitas voltado para pessoas que possuem restrições alimentares.</p>
+Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Para os objetivos específicos, pretende-se: 
-<ul>
- <li>Mapear as restrições alimentares;</li>
-
- <li>Disponibilizar ao usuário receitas orientadas por nutricionistas;</li>
-
- <li>Admitir que o usuário compreenda de forma individual suas restrições e tenha melhor qualidade de vida.</li> 
-</ul>
-
+Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
+> **Links Úteis**:
+> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
@@ -32,10 +27,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Certamente todas as pessoas podem se beneficiar com as diversas dicas e informações que nosso site pode proporcionar, no entanto, o foco deste trabalho está nas pessoas que possuem alguma restrição alimentar, que buscam conhecer novas culturas através do paladar, com receitas de todo o nosso país. Pensando nessas pessoas que gostariam bastante de experimentar certos pratos, mas, devido a este empecilho infelizmente não podem, pensamos em formas de auxilia-las utilizando uma filtragem de dados em que o usuário poderá buscar apenas as receitas que ele pode apreciar. Nosso foco está nas pessoas que, muitas vezes, se sentem entediadas em ter que preparar sempre os mesmos pratos, que buscam conhecer e se aprofundar no mundo culinário. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
