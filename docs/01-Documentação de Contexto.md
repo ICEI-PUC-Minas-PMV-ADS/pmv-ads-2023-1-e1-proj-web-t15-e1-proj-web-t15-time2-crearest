@@ -7,15 +7,20 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 
 Portanto é uma necessidade para algumas pessoas, um local onde seja possível alcançar essas orientações, a fim de trazer uma vida mais saudável e com menos riscos alimentares.
 
-## Objetivos
+## <h2>Objetivos</h2>
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+<p>O objetivo geral deste projeto é estruturar um site de receitas voltado para pessoas que possuem restrições alimentares.</p>
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Para os objetivos específicos, pretende-se: 
+<ul>
+ <li>Mapear as restrições alimentares;</li>
+
+ <li>Disponibilizar ao usuário receitas orientadas por nutricionistas;</li>
+
+ <li>Admitir que o usuário compreenda de forma individual suas restrições e tenha melhor qualidade de vida.</li> 
+</ul>
+
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
