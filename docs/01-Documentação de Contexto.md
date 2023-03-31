@@ -31,7 +31,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Certamente todas as pessoas podem se beneficiar com as diversas dicas e informações que nosso site pode proporcionar, no entanto, o foco deste trabalho está nas pessoas que possuem alguma restrição alimentar, que buscam conhecer novas culturas através do paladar, com receitas de todo o nosso país. Pensando nessas pessoas que gostariam bastante de experimentar certos pratos, mas, devido a este empecilho infelizmente não podem, pensamos em formas de auxilia-las utilizando uma filtragem de dados em que o usuário poderá buscar apenas as receitas que ele pode apreciar. Nosso foco está nas pessoas que, muitas vezes, se sentem entediadas em ter que preparar sempre os mesmos pratos, que buscam conhecer e se aprofundar no mundo culinário. 
+Certamente todas as pessoas podem se beneficiar com as diversas dicas e informações que este site pode proporcionar, no entanto, o foco deste trabalho está nas pessoas que possuem alguma restrição alimentar, que buscam conhecer novas culturas através do paladar, com receitas de todo o país. Pensando nessas pessoas que gostariam bastante de experimentar certos pratos, mas, devido a este empecilho infelizmente não podem, foi pensado em formas de auxilia-las utilizando uma filtragem de dados em que o usuário poderá buscar apenas as receitas que ele pode apreciar.O foco está nas pessoas que, muitas vezes, se sentem entediadas em ter que preparar sempre os mesmos pratos, que buscam conhecer e se aprofundar no mundo culinário. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
