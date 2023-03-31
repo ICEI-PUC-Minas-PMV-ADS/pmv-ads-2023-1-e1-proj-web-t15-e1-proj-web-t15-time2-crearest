@@ -65,7 +65,7 @@ Diabetes tipo 1
 ## Motivações: 
 
 ## Frustrações: 
-Ansiedade 
+Ansiedade;
 Vícios
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
