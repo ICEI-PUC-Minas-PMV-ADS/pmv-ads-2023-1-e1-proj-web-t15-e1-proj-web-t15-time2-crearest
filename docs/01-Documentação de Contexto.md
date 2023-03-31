@@ -28,15 +28,6 @@ Descreva a importância ou a motivação para trabalhar com esta aplicação que
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Certamente todas as pessoas podem se beneficiar com as diversas dicas e informações que este site pode proporcionar, no entanto, o foco deste trabalho está nas pessoas que possuem alguma restrição alimentar, que buscam conhecer novas culturas através do paladar, com receitas de todo o país. Pensando nessas pessoas que gostariam bastante de experimentar certos pratos, mas, devido a este empecilho infelizmente não podem, foi pensado em formas de auxilia-las utilizando uma filtragem de dados em que o usuário poderá buscar apenas as receitas que ele pode apreciar.O foco está nas pessoas que, muitas vezes, se sentem entediadas em ter que preparar sempre os mesmos pratos, que buscam conhecer e se aprofundar no mundo culinário. 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
