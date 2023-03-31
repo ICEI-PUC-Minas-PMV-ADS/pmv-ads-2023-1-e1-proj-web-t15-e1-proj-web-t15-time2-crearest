@@ -2,7 +2,7 @@
 
 Compreender quais alimentos são adequados e quais devem ser evitados é essencial para a saúde de muitas pessoas com restrições alimentares, como hipertensão, doenças renais e outras condições. No entanto, para muitas pessoas, pode ser difícil encontrar informações precisas e confiáveis sobre o que devem ou não comer. 
 
-Ao criar um site de receitas para pessoas com restrições alimentares, você pode ter um impacto significativo na vida dessas pessoas. O site pode fornecer informações detalhadas sobre os alimentos que são adequados para cada condição específica, bem como receitas deliciosas que atendam a essas necessidades alimentares. Isso pode tornar muito mais fácil para as pessoas com restrições alimentares prepararem refeições saudáveis e saborosas em casa. 
+Ao criar um site de receitas para pessoas com restrições alimentares, você pode ter um impacto significativo na vida dessas pessoas. O site pode fornecer informações detalhadas sobre os alimentos que são adequados para cada condição específica, bem como receitas que atendam a essas necessidades alimentares. Isso pode tornar muito mais fácil para as pessoas com restrições alimentares prepararem refeições saudáveis e saborosas em casa. 
 
 Além disso, o site pode ajudar a reduzir a ansiedade e a incerteza que muitas pessoas com restrições alimentares sentem ao tentar encontrar receitas adequadas. Muitas vezes, as pessoas têm dúvidas sobre o que podem ou não comer e não têm tempo ou recursos para realizar pesquisas detalhadas. Um site de receitas confiável e fácil de usar pode eliminar essa preocupação e permitir que as pessoas desfrutem de uma alimentação saudável e saborosa sem estresse. 
 
