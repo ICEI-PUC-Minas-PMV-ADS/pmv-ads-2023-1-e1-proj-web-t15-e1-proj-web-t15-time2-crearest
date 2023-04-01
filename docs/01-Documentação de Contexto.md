@@ -24,9 +24,13 @@ Para os objetivos específicos, pretende-se:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Nosso projeto tem como objetivo compartilhar receitas clássicas com variações adaptadas, a fim de proporcionar a todos a oportunidade de desfrutar de deliciosos pratos, independentemente de suas restrições alimentares. Sejam eles hipertensos, diabéticos, intolerantes à lactose, celíacos, veganos ou vegetarianos, nossa plataforma busca oferecer opções de receitas saborosas e acessíveis.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Considerando que cerca de 60 milhões de pessoas no mundo enfrentam algum tipo de restrição alimentar, é essencial lembrar que ninguém deve se privar de sabores incríveis por causa de sua condição. Por isso, nosso site reúne uma ampla variedade de receitas adaptadas para atender às necessidades de todos.
+
+Com o intuito de tornar as delícias da culinária acessíveis a um clique de distância, visamos auxiliar na diversificação do cardápio de diversas pessoas. Nossa plataforma apresenta diferentes opções e substituições para aqueles que possuem limitações em suas dietas. Além disso, a filtragem do site facilita a busca pelos alimentos permitidos e traz um lembrete para aqueles que devem ser evitados, a fim de proporcionar uma experiência gastronômica segura e prazerosa.
+
+Dessa forma, nossa plataforma busca oferecer uma solução eficiente e prática para a preparação de refeições saudáveis e saborosas, permitindo que pessoas com restrições alimentares desfrutem de uma alimentação variada e prazerosa.
 
 ## Público-Alvo
 
