@@ -86,8 +86,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Louise Costa | Maior conhecimento do que pode ingerir | Evitar alimentos que possam causar dor |
+|Louise Costa | Tratar melhor da condição | Melhorar a qualidade de vida, aliviar sintomas da endometriose |
+|Lucio Santana | Variedade Alimentar | Melhorar sua dieta, evitar alimentos que possam causar desconforto |
+|Luana Oliveira | Buscar substitutos criativos para as receitas diárias | Continuar a seguir uma dieta vegana saudável e equilibrada |
+|Gustavo Silva | Aprender a controlar a ansiedade e vícios em relação à alimentação | Manter níveis saudáveis de açúcar no sangue e prevenir complicações da diabetes tipo 1 |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
