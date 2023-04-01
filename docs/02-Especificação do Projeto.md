@@ -98,11 +98,21 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<tr>
+ <td>|ID    | Descrição do Requisito  | Prioridade |</td>
+ |------|-----------------------------------------|----|
+ <td>|RF-001| Na página inicial do site, deve conter notícias dinâmicas sobre o objetivo do site e algumas receitas| ALTA | </td>
+ <td>|RF-002| Na página inicial o usuário deve conseguir realizar login| ALTA |</td>
+ <td>|RF-003| O site deve permitir o usuário realizar cadastro  | ALTA |</td>
+ <td>|RF-004| A partir do cadastro, o site deve apresentar para o usuário receitas conforme sua restrição alimentar | ALTA |</td>
+ <td>|RF-005| Para cada receita, o site deve apresentar uma imagem correspondente | MÉDIA |</td>
+ <td>|RF-006| O usuário também deve conseguir ter acesso a receitas de outras restrições | MÉDIA |</td>
+ <td>|RF-007| O site deve permitir salvar receitas |BAIXA |</td>
+ <td>|RF-008| O site deve permitir o compartilhamento das receitas | BAIXA |</td>
+ <td>|RF-009| O site deve permitir o envio de receitas próprias dos usuários | MÉDIA |</td>
+ <td>|RF-010| O site deve ter informações de categorias de alimentos e método de cozimento.| ALTA |</td>
+ <td>|RF-011| Cada receita deve conter informação de tempo de preparo e porção| ALTA |</td>
+</tr>
 
 
 ### Requisitos não Funcionais
