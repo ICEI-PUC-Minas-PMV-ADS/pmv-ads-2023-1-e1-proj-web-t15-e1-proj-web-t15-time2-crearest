@@ -103,36 +103,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser multiplataforma – Windows, Linux e macOS.  | MÉDIA | 
+|RNF-002| O sistema deve ser desenvolvido na linguagem Angular | MÉDIA |
+|RNF-003| O sistema deve atender a LGPD  | ALTA | 
+|RNF-004| O sistema deve ser compatível com todos os navegadores  |  BAIXA |
+|RNF-005| O sistema deve atender pessoas com deficiência visual | MÉDIA | 
+|RNF-006| O sistema deve ter modo noturno  |  BAIXA |
+|RNF-007| O sistema deve ser esteticamente agradável e entregar informações de forma clara  |  ALTA |
+|RNF-008| O sistema deve ser interativo   | MÉDIA |
+|RNF-009| O sistema deve ser responsivo    | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID     | Restrições  |Prioridade |
+|ID     | Restrições  | Caso de uso |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RDIS-1| O sistema deve funcionar 24 horas  | RNF-008 | 
+|RUS-1 | O sistema deve estar em conformidade com as normas da Lei de proteção de dados  | RF-002  | 
+|RUS-2 | O sistema deve habilitar funções por perfil de usuário | RNF-004 | 
+|RUS-3| O sistema deve ser entregue em até 4 meses  | Prazo de projeto  |
+|RSEG-1 | O sistema deve realizar a verificação automática de comprovação via e-mail  | RF-003  |
 
 
 
