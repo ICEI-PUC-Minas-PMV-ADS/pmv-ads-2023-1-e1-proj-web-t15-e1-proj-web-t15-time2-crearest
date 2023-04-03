@@ -25,6 +25,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
+## Apresentação dia 03/04/2023
+https://sgapucminasbr-my.sharepoint.com/:p:/g/personal/1325767_sga_pucminas_br/EZamiqNbGGlAj0rEXuvVxbABbMHwKMWXAz4aQUszvsR17A?e=3wgsOy&nav=eyJzSWQiOjI1NiwiY0lkIjoyMjEwODY2NTUxfQ
+
 # Documentação
 
 <ol>
