@@ -20,16 +20,8 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+<h2>Tela - Home-Page</h2>
+<p>A tela de Home Page é a capa visual do site separado por sessões. Sendo a primeira sessão, o cabeçalho, onde consta a logo, barra de pesquisa, categorias de receitas e demonstração de favoritos.
+ Seguindo temos a sessão dois, que refere-se ao conteúdo do site mostrando as receitas em destaque. Por fim, o footer com informações sobre o site.</p>
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![image](https://user-images.githubusercontent.com/125780065/233843664-69f085ad-b45b-4cd9-b1a0-4521710eca5f.png)
