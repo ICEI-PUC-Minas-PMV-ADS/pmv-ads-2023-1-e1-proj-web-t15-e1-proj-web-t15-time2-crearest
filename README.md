@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Lorenzo Grei Ribeiro
 * Láisa Liane da Silva Marinho Costa
 * Maria Júlia Guimarães Figueiredo
-* João Vitor
+* João Victor Brito Abadia
 
 ## Orientador
 
