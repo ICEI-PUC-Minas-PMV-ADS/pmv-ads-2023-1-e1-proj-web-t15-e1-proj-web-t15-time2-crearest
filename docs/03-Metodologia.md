@@ -30,7 +30,7 @@ Para este projeto, as estruturas foram organizadas em três seções, sendo elas
 
 Uma das formas de organizar e gerenciar o processo e progresso das tarefas foi utilizar o product backlog. Trata-se de uma lista ordenada que surge conforme as necessidades do cliente, por isso nunca está completa. É a fonte de trabalho do Time Scrum para melhorar e atender os requisitos do produto.
 
-Abaixo segue a lista das tarefas  e tarefas priorizadas, refinadas, realizadas na sprint atual:
+Abaixo segue a lista das tarefas priorizadas, refinadas, realizadas na sprint atual:
  <ul>Metodologia;
  <li>Equipes de Trabalho;</li>
  <li>Ferramentas;</li>
