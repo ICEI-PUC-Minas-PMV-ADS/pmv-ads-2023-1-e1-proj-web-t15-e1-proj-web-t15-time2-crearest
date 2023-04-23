@@ -1,77 +1,89 @@
 
-# Metodologia
+# 3 Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Tendo em vista o cumprimento do objetivo deste projeto de estruturar um site de receitas voltado para pessoas que possuem restrições alimentares, foi utilizado um framework com abordagem ágil, Scrum, para organizar e simplificar cada etapa do processo até a entrega, além de ferramentas que possibilitasse tal planejamento. 
+Para este projeto, as estruturas foram organizadas em três seções, sendo elas: Equipe de trabalho, Ferramentas e Processos. Desse modo, foi possível analisar estrategicamente se os objetivos estavam sendo atendidos, além das falhas e percepção de melhorias.
 
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+### 3.1 Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+<p>Conforme descreve o Scrum Guide (2020), existem três papéis no Scrum, sendo o Product Owner, Scrum Master e Time de Desenvolvedores. O primeiro trata-se de uma pessoa responsável por entender de negócios e analisar estrategicamente as necessidades do cliente, maximizar os valores de cada entrega realizada, além de ser responsável pela gestão e priorização do product backlog, atuando com comunicação assertiva para que tanto o time quanto os clientes possam compreender as etapas e entregas.</p>
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+<p>O Scrum Master é o líder servidor responsável pela eficácia do time. Servindo ao time como um todo, a organização, ao Product Owner. Além de ser facilitador de cerimônias Scrum, ajuda a remover impedimentos que venham surgir, identifica oportunidades de melhoria.</p>
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-### Ferramentas
-
-As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+<p>Já o time de desenvolvimento não necessariamente possui somente programadores, podem ser além de programadores, designers, testers QA, Cientistas de dados, entre outros, ou seja, são todos aqueles que fazem parte do desenvolvimento do projeto. Este espaço é fundamental para praticar os valores do Scrum que consistem em compromisso, foco, abertura, respeito e coragem, onde cada indivíduo deve confiar de que o outro está fazendo o seu melhor trabalho e caso surja algum impedimento, são capazes de agir e ajudar uns aos outros para solucionar, pois possuem abertura para tal.</p>
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+<p>Seguindo para este projeto, a equipe de trabalho ficou definida conforme a seguir:</p>
+<ul>
+ <li>Product Owner: Lorenzo Grei;</li>
+<li>Scrum Master: Láisa Liane Costa;</li>
+<li>Time de Desenvolvimento: Bruno César Santos, João Victor Abadia, Maria Júlia Figueiredo e Vinicius Silva.</li>
+</ul>
+
+### 3.2 Processo
+
+3.2.1 Product Backlog
+
+Uma das formas de organizar e gerenciar o processo e progresso das tarefas foi utilizar o product backlog. Trata-se de uma lista ordenada que surge conforme as necessidades do cliente, por isso nunca está completa. É a fonte de trabalho do Time Scrum para melhorar e atender os requisitos do produto.
+
+Abaixo segue a lista das tarefas  e tarefas priorizadas, refinadas, realizadas na sprint atual:
+ <ul>Metodologia;
+ <li>Equipes de Trabalho;</li>
+ <li>Ferramentas;</li>
+ <li>Processo.</li>
+ </ul>
+<ul>Projeto de Interface;
+<li>Tela - Home-Page;</li>
+<li>Tela - Notícias de Categoria;</li>
+<li>Tela - Resultado de Pesquisa;</li>
+<li>Tela - Leitura Notícias;</li>
+<li>Tela - Notícias Preferidas;</li>
+<li>Tela - Comentários.</li>
+<li>Fluxo de Usuário.</li>
+</ul>
+
+Todas essas tarefas acima foram transformadas em entregáveis para atingir a meta do produto estipulada pelo Product Owner. Além de trabalhar a comunicação e transparência entre o time.
+
+3.2.2 Sprint
+
+Sprint é um container para todos os eventos ou cerimônias do Scrum. Essas cerimônias são chamadas de planning, daily, review e retrospective e são utilizadas para inspecionar, trabalhar a transparência e adaptar caso surja mais algum elemento ou algum impedimento. Também, são utilizadas para minimizar a necessidade de reuniões extras que se desarmonem com o desenvolvimento do time.
+Nesse contexto, para o projeto em questão, foram realizadas as cerimônias ditas pelo Scrum, onde houve o refinamento do product backlog até transformar em tarefas entregáveis e estimadas. A Scrum Master gerenciou as tarefas e acompanhou juntamente com os desenvolvedores. O Product Owner atuando de prontidão para atender as dúvidas dos desenvolvedores. Contudo, todos os componentes do time possuem especialidades que tornam o time multifuncional e auto-gerenciável.
+
+
+### 3.3 Ferramentas
+
+Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o planejamento até a execução, conforme tabela a seguir:
+
+<table>
+    <thead>
+        <tr>
+            <th>Ambiente</th>
+            <th>Plataforma</th>
+            <th>Link de Acesso</th>
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gerenciamento do Projeto</td>
+            <td>Trello</td>
+            <td>https://l1nq.com/cOAmv</td>
+        </tr>
+        <tr>
+            <td>Repositório de código fonte</td>
+            <td>Github</td>
+            <td> https://encr.pw/2JiIk </td>
+        </tr>
+        <tr>
+            <td>Projeto de Interface e  Wireframes</td>
+            <td>Figma</td>
+            <td>https://l1nq.com/o2u1u </td>
+        </tr>
+        
+    </tbody>
+</table>        
+
+ 
