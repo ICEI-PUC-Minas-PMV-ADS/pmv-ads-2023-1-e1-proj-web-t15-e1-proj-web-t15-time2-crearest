@@ -20,6 +20,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 
 ## Wireframes
+
+<p>Para demonstração do site CreaRest foram utilizados esqueletos ou estruturas geométricas para configurar o site, chamados de wireframes. Abaixo segue o exemplo:</p>
+
+![image](https://user-images.githubusercontent.com/125780065/233870591-088cadab-91b8-49eb-891e-a74b2a93ca5e.png)
+
 <h2>Tela - Home-Page</h2>
 <p>A tela de Home Page é a capa visual do site separado por sessões. Sendo a primeira sessão, o cabeçalho, onde consta a logo, barra de pesquisa, categorias de receitas e demonstração de favoritos.
  Seguindo temos a sessão dois, que refere-se ao conteúdo do site mostrando as receitas em destaque. Por fim, o footer com informações sobre o site.</p>
@@ -48,7 +53,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![image](https://user-images.githubusercontent.com/125780065/233868560-e026ca17-dd5d-4b9f-8578-73dcbec29020.png)
 
 <h2>Tela - Comentário</h2>
-<p>A tela de comentários também reflete a interação dos usuários conforme as receitas </p>
+<p>A tela de comentários também reflete a interação dos usuários  a çiberdae de comentar e dar seu feedback quanto as receitas.</p>
 
 ![image](https://user-images.githubusercontent.com/125780065/233869063-01ba135b-06e0-41d1-8f72-c559142e4f91.png)
 
