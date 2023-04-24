@@ -28,6 +28,9 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 ## Apresentação dia 03/04/2023
 https://www.canva.com/design/DAFfF1pW3YY/yX0Tjs2tGWh6HV5tSMkUvg/edit?utm_content=DAFfF1pW3YY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+## Apresentação dia 24/04/2023
+https://www.canva.com/design/DAFfF1pW3YY/yX0Tjs2tGWh6HV5tSMkUvg/edit?utm_content=DAFfF1pW3YY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 # Documentação
 
 <ol>
