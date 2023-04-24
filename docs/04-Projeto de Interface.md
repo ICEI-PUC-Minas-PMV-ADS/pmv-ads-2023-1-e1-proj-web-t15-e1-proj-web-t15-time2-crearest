@@ -48,7 +48,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![image](https://user-images.githubusercontent.com/125780065/233868560-e026ca17-dd5d-4b9f-8578-73dcbec29020.png)
 
 <h2>Tela - Comentário</h2>
-<p>A tela de comentários também reflete a interação dos usuários  a çiberdae de comentar e dar seu feedback quanto as receitas.</p>
+<p>A tela de comentários também reflete a interação dos usuários  a liberdade de comentar e dar seu feedback quanto as receitas.</p>
 
 ![image](https://user-images.githubusercontent.com/125780065/233869063-01ba135b-06e0-41d1-8f72-c559142e4f91.png)
 
