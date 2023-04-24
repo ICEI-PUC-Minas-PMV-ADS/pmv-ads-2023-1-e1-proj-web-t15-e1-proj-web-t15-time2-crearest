@@ -42,15 +42,15 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ![image](https://user-images.githubusercontent.com/125780065/233868271-7fc034e7-6ee8-4b39-a8a9-a4c052581170.png)
 
-Tela - Salvar Receitas Preferidas
-A tela de salvar receitas preferidas é a tela de confirmação que aparece ao usuário quando o mesmo deseja salvar receitas específicas.
+<h2>Tela - Salvar Receitas Preferidas</h2>
+<p>A tela de salvar receitas preferidas é a tela de confirmação que aparece ao usuário quando o mesmo deseja salvar receitas específicas.</p>
 
 
 
 ![image](https://user-images.githubusercontent.com/125780065/233868560-e026ca17-dd5d-4b9f-8578-73dcbec29020.png)
 
-Tela - Comentário
-A tela de comentários também reflete a interação dos usuários  a liberdade de comentar e dar seu feedback quanto as receitas.
+<h2>Tela - Comentário</h2>
+<p>A tela de comentários também reflete a interação dos usuários  a liberdade de comentar e dar seu feedback quanto as receitas.</p>
 
 
 
