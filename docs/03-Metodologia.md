@@ -50,17 +50,17 @@ Todas essas tarefas acima foram transformadas em entregáveis para atingir a met
 
 ### 3.2.2 Sprint 1
 <li>Documentação de contexto</li>
-Problema
-Objetivos
-justificativa
-Público Alvo
-<li>Especificação do Projeto</li>
-Personas
-Histórias de Usuários
-Requisitos do Projeto
-Requisitos funcionais
-Requisitos não funcionais
-Restrições
+  <br>Problema</br>
+  <br>Objetivos</br>
+  <br>justificativa</br>
+  <br>Público Alvo</br>
+<br><li>Especificação do Projeto</li></br>
+  <br>Personas</br>
+  <br>Histórias de Usuários</br>
+  <br>Requisitos do Projeto</br>
+  <br>Requisitos funcionais</br>
+  <br>Requisitos não funcionais</br>
+  <br>Restrições</br>
 
 ### 3.2.3 Planejamento
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Processos%20sprint%201.jpg)
@@ -87,9 +87,35 @@ Links:
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a></li>
 
+### 3.3 Sprint 2
+<li>Metodologia</li>
+  <br>Equipes de trabalho</br>
+  <br>Ferramentas</br>
+  <br>Processos</br>
+<li>Projeto de interface</li>
+  <br>Fluxo do usuário</br>
+  <br>Wireframes</br>
+  
+  ### 3.3.1 Planejamento
+  
+  ### 3.3.2 Execução
+  
+|  Tarefa  | Responsável  |
+|----------|--------------|
+|Tela-Home Page|Bruno Cesar Dias|
+|Tela-Reultado de pesquisa|Bruno Cesar Dias|
+|Tela-Receitas preferidas|Bruno Cesar Dias|
+|Tela-Categoria de receita|Bruno Cesar Dias|
+|Tela-Comentários|Bruno Cesar Dias|
+|Tela-Salvar notícias preferidas|Bruno Cesar Dias|
+|Fluxo de usuário|Bruno Cesar Dias|
 
+### 3.3.3 Evidências
+Links:
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/03-Metodologia.md">Metodologia</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/04-Projeto%20de%20Interface.md">Projeto de interface</a></li>
 
-### 3.3 Ferramentas
+### 3.4 Ferramentas
 
 Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o planejamento até a execução, conforme tabela a seguir:
 
@@ -116,6 +142,11 @@ Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o plane
             <td>Projeto de Interface e  Wireframes</td>
             <td>Figma</td>
             <td>https://l1nq.com/o2u1u </td>
+        </tr>
+        <tr>
+            <td>Documentos do Projeto</td>
+            <td>GitHub</td>
+            <td>https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest </td>
         </tr>
         
     </tbody>
