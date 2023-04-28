@@ -48,10 +48,44 @@ Abaixo segue a lista das tarefas priorizadas, refinadas, realizadas na sprint at
 
 Todas essas tarefas acima foram transformadas em entregáveis para atingir a meta do produto estipulada pelo Product Owner. Além de trabalhar a comunicação e transparência entre o time.
 
-3.2.2 Sprint
+### 3.2.2 Sprint 1
+<li>Documentação de contexto</li>
+Problema
+Objetivos
+justificativa
+Público Alvo
+<li>Especificação do Projeto</li>
+Personas
+Histórias de Usuários
+Requisitos do Projeto
+Requisitos funcionais
+Requisitos não funcionais
+Restrições
 
-Sprint é um container para todos os eventos ou cerimônias do Scrum. Essas cerimônias são chamadas de planning, daily, review e retrospective e são utilizadas para inspecionar, trabalhar a transparência e adaptar caso surja mais algum elemento ou algum impedimento. Também, são utilizadas para minimizar a necessidade de reuniões extras que se desarmonem com o desenvolvimento do time.
-Nesse contexto, para o projeto em questão, foram realizadas as cerimônias ditas pelo Scrum, onde houve o refinamento do product backlog até transformar em tarefas entregáveis e estimadas. A Scrum Master gerenciou as tarefas e acompanhou juntamente com os desenvolvedores. O Product Owner atuando de prontidão para atender as dúvidas dos desenvolvedores. Contudo, todos os componentes do time possuem especialidades que tornam o time multifuncional e auto-gerenciável.
+### 3.2.3 Processos
+
+
+### 3.2.4 Execução
+
+|  Tarefa  | Responsável  |
+|----------|--------------|
+| Documentação de contexto |Bruno Cesar Dias|
+| Problema|Lorenzo Grei Ribeiro|
+|Objetivos|Láisa Liane|
+|Justificativa| Maria Júlia Guimarães|
+|Público alvo| Vinicius Vieira|
+|Personas| Todos|
+|Histórias de usuários|Bruno Cesar Dias|
+|Requisitos funcionais|Láisa Liane|
+|Requisitos não funcionais|João Victor Brito|
+|Restrições|João Victor Brito|
+
+### 3.2.5 Evidências
+
+Links:
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a></li>
+
 
 
 ### 3.3 Ferramentas
