@@ -62,7 +62,7 @@ Requisitos funcionais
 Requisitos não funcionais
 Restrições
 
-### 3.2.3 Processos
+### 3.2.3 Planejamento
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Processos%20sprint%201.jpg)
 
 
