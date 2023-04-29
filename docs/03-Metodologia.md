@@ -108,7 +108,7 @@ Links:
 |Tela-Receitas preferidas|Bruno Cesar Dias|
 |Tela-Categoria de receita|Bruno Cesar Dias|
 |Tela-Comentários|Bruno Cesar Dias|
-|Tela-Salvar notícias preferidas|Bruno Cesar Dias|
+|Tela-Salvar Receitas preferidas|Bruno Cesar Dias|
 |Fluxo de usuário|Láisa Liane|
 |Relação de ambientes de trabalho|Láisa Liane|
 |Gerenciamento do projeto|Láisa Liane|
