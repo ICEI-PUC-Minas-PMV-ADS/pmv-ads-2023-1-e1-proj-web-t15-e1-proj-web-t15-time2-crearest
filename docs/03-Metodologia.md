@@ -97,6 +97,7 @@ Links:
   <br>Wireframes</br>
   
   ### 3.3.1 Planejamento
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/planejamento%20Sprint%202.jpg)
   
   ### 3.3.2 Execução
   
@@ -108,7 +109,9 @@ Links:
 |Tela-Categoria de receita|Bruno Cesar Dias|
 |Tela-Comentários|Bruno Cesar Dias|
 |Tela-Salvar notícias preferidas|Bruno Cesar Dias|
-|Fluxo de usuário|Bruno Cesar Dias|
+|Fluxo de usuário|Láisa Liane|
+|Relação de ambientes de trabalho|Láisa Liane|
+|Gerenciamento do projeto|Láisa Liane|
 
 ### 3.3.3 Evidências
 Links:
