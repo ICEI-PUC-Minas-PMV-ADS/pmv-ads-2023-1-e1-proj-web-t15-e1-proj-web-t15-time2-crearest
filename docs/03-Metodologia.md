@@ -201,6 +201,20 @@ ID	Descrição do Requisito	Prioridade
          <th>ALTA</th>
         </tr>
       </tbody>
+      <tbody>
+        <tr>
+         <th>RF-006</th>
+         <th>A tela de comentários deve permitir que o usuário digite sem limitações de caracteres</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>RF-006</th>
+         <th> A tela de comentários deve permitir que o usuário envie seu comentário para a receita especifica/escolhida</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
 </table>       
 
 ## Execução
