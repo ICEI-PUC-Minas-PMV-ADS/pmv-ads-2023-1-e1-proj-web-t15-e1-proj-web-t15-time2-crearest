@@ -24,3 +24,8 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
 </ul>
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b4a3307f-f915-4212-a5b5-a8ff123f0354)
+
+# Tela salavr receitas preferidas
+<ul>
+  <li>Tela em que os usuários vão escolher entre salvar ou não determinadas receitas em sua aba de favoritos</li>
+</ul>
