@@ -79,6 +79,88 @@ Comentários
     button type="reset">Limpar
    }
    
+   # Tela Receitas Favoritas
+   
+   ## Estrutura dos Dados
+   
+   Cabeçalho
+   
+    <header class=" cabecalho">
+        <div class="logo"> 
+          <span>
+            <a href="index1.html">
+             <img src = "./assets/logo.png" alt="CreatRest" >
+             </a>
+          </span>
+             <h1 class="nome__logo">CreatRest</h1>
+        </div>
+        <div class=" busca">
+            <input type = "text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </div>
+    </header>
+    
+  Conteudo Receitas Favoritas
+  
+    <main class ="conteudo">
+        <div id="carouselExampleCaptions" class="carousel slide mb-3" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/salada-colorida-de-legumes-2.jpg" class="d-block w-100" height="600px" alt="Salada colorida de legumes">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Saladas</h5>
+                  <p>Salada Colorida de legumes</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/salada-tropical-com-rucula.jpg" class="d-block w-100" height ="600px" alt="Salada tropical com rúcula">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Saladas</h5>
+                  <p>Salada tropical com rúcula</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/frango-ao-iogurte.jpg" class="d-block w-100" height="600px" alt="Frango ao iogurte">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Carnes</h5>
+                  <p>Frango ao iogurte</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <section class="conteudo__receita"> <h1 class="titulo__favoritos"> Favoritos</h1>
+            <p class="nome__receita"><strong>1-Frango ao iogurte</strong></p>
+            <img class = "imagem__receita" src=".//assets/frango-ao-iogurte.jpg" alt=" Imagem frango ao iogurte">
+            <p class ="lista__ingredientes">Ingredientes</p>
+            <ul class="lista__ingredientes">
+                <li>500 g de peito de frango, sem pele e sem osso, cortado em iscas</li>
+                <li>1 sachê de Caldo de galinha</li>
+                <li>meia colher (sopa) de suco de limão</li>
+                <li>2 colheres (sopa) de margarina sem sal</li>
+                <li>1 cebola pequena picada</li>
+                <li>3 tomates grandes, sem sementes, picados</li>
+                <li>meia xícara (chá) de salsa picada</li>
+                <li>1 copo de iogurte natural (170 g)</li>
+                <li>meio copo de requeijão cremoso</li>
+                <li>meia xícara (chá) de queijo parmesão ralado</li>
+            </ul>
+        </section> 
+    </main>
+   
+   
    # Tela Salvar receitas preferidas
    
    ## Requisitos Atendidos
