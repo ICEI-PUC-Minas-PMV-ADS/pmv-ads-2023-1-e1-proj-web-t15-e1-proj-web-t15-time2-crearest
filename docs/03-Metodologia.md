@@ -1,5 +1,5 @@
 
-# 3 Metodologia
+# Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
@@ -9,7 +9,7 @@ Para este projeto, as estruturas foram organizadas em três seções, sendo elas
 
 ## Gerenciamento de Projeto
 
-### 3.1 Divisão de Papéis
+### Divisão de Papéis
 
 <p>Conforme descreve o Scrum Guide (2020), existem três papéis no Scrum, sendo o Product Owner, Scrum Master e Time de Desenvolvedores. O primeiro trata-se de uma pessoa responsável por entender de negócios e analisar estrategicamente as necessidades do cliente, maximizar os valores de cada entrega realizada, além de ser responsável pela gestão e priorização do product backlog, atuando com comunicação assertiva para que tanto o time quanto os clientes possam compreender as etapas e entregas.</p>
 
@@ -24,9 +24,9 @@ Para este projeto, as estruturas foram organizadas em três seções, sendo elas
 <li>Time de Desenvolvimento: Bruno César Santos, João Victor Abadia, Maria Júlia Figueiredo e Vinicius Silva.</li>
 </ul>
 
-### 3.2 Processo
+###  Processo
 
-3.2.1 Product Backlog
+# Product Backlog
 
 Uma das formas de organizar e gerenciar o processo e progresso das tarefas foi utilizar o product backlog. Trata-se de uma lista ordenada que surge conforme as necessidades do cliente, por isso nunca está completa. É a fonte de trabalho do Time Scrum para melhorar e atender os requisitos do produto.
 
@@ -48,7 +48,7 @@ Abaixo segue a lista das tarefas priorizadas, refinadas, realizadas na sprint at
 
 Todas essas tarefas acima foram transformadas em entregáveis para atingir a meta do produto estipulada pelo Product Owner. Além de trabalhar a comunicação e transparência entre o time.
 
-### 3.2.2 Sprint 1
+### Sprint 1
 <li>Documentação de contexto</li>
   <br>Problema</br>
   <br>Objetivos</br>
@@ -62,11 +62,11 @@ Todas essas tarefas acima foram transformadas em entregáveis para atingir a met
   <br>Requisitos não funcionais</br>
   <br>Restrições</br>
 
-### 3.2.3 Planejamento
+### Planejamento
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Processos%20sprint%201.jpg)
 
 
-### 3.2.4 Execução
+###  Execução
 
 |  Tarefa  | Responsável  |
 |----------|--------------|
@@ -81,13 +81,13 @@ Todas essas tarefas acima foram transformadas em entregáveis para atingir a met
 |Requisitos não funcionais|João Victor Brito|
 |Restrições|João Victor Brito|
 
-### 3.2.5 Evidências
+### Evidências
 
 Links:
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a></li>
 
-### 3.3 Sprint 2
+### Sprint 2
 <li>Metodologia</li>
   <br>Equipes de trabalho</br>
   <br>Ferramentas</br>
@@ -96,10 +96,10 @@ Links:
   <br>Fluxo do usuário</br>
   <br>Wireframes</br>
   
-  ### 3.3.1 Planejamento
+  ### Planejamento
   ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/planejamento%20Sprint%202.jpg)
   
-  ### 3.3.2 Execução
+  ###  Execução
   
 |  Tarefa  | Responsável  |
 |----------|--------------|
@@ -113,12 +113,12 @@ Links:
 |Relação de ambientes de trabalho|Láisa Liane|
 |Gerenciamento do projeto|Láisa Liane|
 
-### 3.3.3 Evidências
+### Evidências
 Links:
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/03-Metodologia.md">Metodologia</a></li>
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/04-Projeto%20de%20Interface.md">Projeto de interface</a></li>
 
-### 3.4 Ferramentas
+### Ferramentas
 
 Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o planejamento até a execução, conforme tabela a seguir:
 
@@ -155,4 +155,100 @@ Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o plane
     </tbody>
 </table>        
 
+ # Sprint 3
+## Planejamento
+A plannign, proveniente do frameswork scrum, foi realizada no dia 27/04 para compreender o que será feito nessa sprint, estimar as tarefas e atribuí-las. Abaixo imagem retirada da plataforma Trello.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/49bcd7e9-5dca-4718-946d-587e9cf88489)
+
+### Sendo que as funcionalidades devem obedecer as prioridades definidas nos Requisitos Funcionais, conforme abaixo:
+
+ID	Descrição do Requisito	Prioridade
+
+<table>
+   <tbody>
+        <tr>
+            <th>RF-001</th>
+            <th>Para cada receita, o site deve apresentar uma imagem correspondente</th>
+            <th>ALTA</th>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+            <th>RF-002</th>
+            <th>O site deve ter informações de categorias de alimentos e método de cozimento.</th>
+            <th>ALTA</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <th>RF-003</th>
+            <th>Cada receita deve conter informação de porção</th>
+            <th> ALTA</th>
+        </tr>
+       </tbody>
+      <tbody>
+        <tr>
+         <th>RF-004</th>
+         <th>A página de receitas deve conter o nome da restrição alimentar idetificada antes da receita</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+</table>       
+
+## Execução
+
+### Tarefas 
+<p>Para as tasks dessa sprint, as tarefas foram atribuidas conforme abaixo:</p>
+<table>
+   <tbody>
+        <tr>
+            <th>Tela- Home Page</th>
+            <th>Bruno César</th>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+            <th>Tela - Login</th>
+            <th>Lorenzo Grei</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <th>Template sem conteúdo</th>
+            <th>Láisa Liane</th>
+        </tr>
+       </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Receita</th>
+         <th>Láisa Liane</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Comentário</th>
+         <th>Láisa Liane</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela Receitas - Salvar Receitas Preferidas</th>
+         <th>Vinicius Vieira</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Resultado de Pesquisa </th>
+         <th>João Abadia</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela home - Categoria de Receitas  </th>
+         <th>Maria Júlia</th>
+        </tr>
+      </tbody>
  
+</table>       
+
