@@ -30,7 +30,7 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
   <li>Tela onde ficará guardado todas as receitas favoritas salvas pelos usuários.</li>
 </ul>
 
-![image](https://github.com/vinicius665/receitas-preferidas/blob/main/projeto%20site%20receitas%20preferidas/assets/print%20receitas%20preferidas.png)
+![image](https://github.com/vinicius665/receitas-preferidas/blob/main/projeto%20site%20receitas%20preferidas/assets/print%20receitas%20favoritas.png)
 
 # Tela salvar receitas preferidas
 <ul>
