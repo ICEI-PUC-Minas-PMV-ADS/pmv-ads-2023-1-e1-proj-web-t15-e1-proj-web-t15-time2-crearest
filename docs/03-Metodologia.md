@@ -157,9 +157,7 @@ Foram utilizadas ferramentas e recursos que auxiliaram o processo, desde o plane
 
  # Sprint 3
 ## Planejamento
-A plannign, proveniente do frameswork scrum, foi realizada no dia 27/04 para compreender o que será feito nessa sprint, estimar as tarefas e atribuí-las. Abaixo imagem retirada da plataforma Trello.
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/49bcd7e9-5dca-4718-946d-587e9cf88489)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/sprint%203.png)
 
 ### Sendo que as funcionalidades devem obedecer as prioridades definidas nos Requisitos Funcionais, conforme abaixo:
 
