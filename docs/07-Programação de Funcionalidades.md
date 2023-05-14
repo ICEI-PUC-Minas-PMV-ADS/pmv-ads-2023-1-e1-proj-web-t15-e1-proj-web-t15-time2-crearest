@@ -171,7 +171,7 @@ Comentários
   ## Estrutura dos Dados
   
   Corpo da página
-  
+     
      <body>
      <main class="Conteudo__pagina__salvar">
       <img  class="imagem__salvar" src="./assets/coracao favoritos.png" alt="like preferidas">
@@ -183,8 +183,11 @@ Comentários
      </main>
     
     </body>
+   }
     
-  ## Resultados de Pesquisas
+ 
+ 
+ ## Resultados de Pesquisas
    
     <body>
      <header>
