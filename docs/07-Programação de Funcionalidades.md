@@ -2,6 +2,45 @@
 
 Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as funcionalidades do sistema, priorizadas na Sprint 3. Assim também, serão apresentados os requisitos funcionais atendidos e a estrutura dos dados.
 
+# Tela - Home 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreatRest</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+          <img src="img/Imagem_do_WhatsApp_de_2023-05-02_à_s__20.55.28-removebg-preview.png" alt="Descrição da logo">
+          <h1>CreatRest</h1>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Buscar...">
+          <button type="submit">Buscar</button>
+        </div>
+        <div class="favoritos">
+          <button type="favoritos">Favoritos ♥</button>
+          <button type="coracao">♥</button>
+          <div class="categoria">
+          <button type="categoria">Categoria</button>
+          </div>
+      </header>
+        <div class="Diversas">Receitas Diversas </div>
+        <footer>
+            Informações do site
+
+
+        </footer>
+</body>
+</html>
+
+
+
 # Tela - Receita - Arroz couve-flor com iscas de frango
 
 ## Requisitos Atendidos
