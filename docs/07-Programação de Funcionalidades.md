@@ -183,7 +183,83 @@ Comentários
      </main>
     
     </body>
-  
+    
+  ## Resultados de Pesquisas
+   
+    <body>
+     <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Descrição da logo">
+      <h1>CreatRest</h1>
+    </div>
+    <div class="search">
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar Receitas">
+    </div>
+    <div class="favoritos">
+      <button type="favoritos">Favoritos ♥</button>
+      <div class="categoria">
+        <button type="categoria">Categoria</button>
+      </div>
+    </header>
+    <hr>
+    <main>
+    <ul id="myUL">
+      <li><a href="#" onclick="myfuncao()">Lasanha de Brocolis</li>
+        <iframe src="lasanha.html" name="ppp" title="Informações" width="100%" height="300px" id="myDIV"></iframe>
+      <li><a href="#">Frango Xadres</a></li>
+      <li><a href="#">Bolo de Chocolate Vegano</a></li>
+      <li><a href="#">Tilapia Empanada</a></li>
+      <li><a href="#">Salada Royal</a></li>
+      <li><a href="#">Brigadeiro 0 Lactose</a></li>
+      <li><a href="#">Cookie Vegano</a></li>
+      <li><a href="#">Pão integral Caseiro</a></li>
+      <li><a href="#">Pão de queijo Vegano</a></li>
+      <li><a href="#">Batata Frita Sequinha</a></li>
+      <li><a href="#">Suco de Couve</a></li>
+      <li><a href="#">Nuggets de Milho</a></li>
+      <li><a href="#">Lasanha à Bolonhesa</a></li>
+    </ul>
+    </main>
+    <script>
+    function myFunction() {
+      // Declaração de Variaveis
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('myInput');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName('li');
+
+      
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    function myfuncao() {
+     var x = document.getElementById("myDIV");
+     if (x.style.display === "none") {
+    x.style.display = "block";
+     } else {
+    x.style.display = "none";
+    }
+    }
+    </script>
+     <footer>
+    Informações do site
+
+
+    </footer>
+
+
+
+    </body>
+
+    </html>
  
 
    
