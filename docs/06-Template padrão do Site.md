@@ -25,7 +25,16 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b4a3307f-f915-4212-a5b5-a8ff123f0354)
 
-# Tela salavr receitas preferidas
+# Tela Receitas Favoritas
 <ul>
-  <li>Tela em que os usuários vão escolher entre salvar ou não determinadas receitas em sua aba de favoritos</li>
+  <li>Tela onde ficará guardado todas as receitas favoritas salvas pelos usuários.</li>
 </ul>
+
+# Tela salvar receitas preferidas
+<ul>
+  <li>Tela em que os usuários vão escolher entre salvar ou não determinadas receitas em sua aba de favoritos.</li>
+</ul>
+
+![image](https://github.com/vinicius665/receitas-preferidas/blob/main/projeto%20site%20receitas%20preferidas/assets/salvar%20receitas%20preferidas.png)
+
+
