@@ -8,6 +8,8 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/55f1be60-ce24-4ca3-900d-23fa08756360)
 # Tela Home
 
+![imagem-home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/110935208/4bcb2891-ba43-40b7-a77d-995d0daf54e3)
+
 # Tela Login
 
 # Tela Receita
