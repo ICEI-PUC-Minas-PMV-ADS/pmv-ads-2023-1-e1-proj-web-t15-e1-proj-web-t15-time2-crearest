@@ -194,6 +194,13 @@ ID	Descrição do Requisito	Prioridade
          <th>ALTA</th>
         </tr>
       </tbody>
+       <tbody>
+        <tr>
+         <th>RF-005</th>
+         <th>A logo, em todas as paginas, devem levar o cliente a página Home</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
 </table>       
 
 ## Execução
