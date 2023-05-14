@@ -77,4 +77,38 @@ Comentários
     Conte-nos sua experiência
     button type="submit">Enviar
     button type="reset">Limpar
+   }
+   
+   # Tela Salvar receitas preferidas
+   
+   ## Requisitos Atendidos
+   <ul>
+  <li>RF-007</li>
+  </ul>
+  
+  ## Estrutura dos Dados
+  
+  Corpo da página
+  
+     <body>
+     <main class="Conteudo__pagina__salvar">
+      <img  class="imagem__salvar" src="./assets/coracao favoritos.png" alt="like preferidas">
+      <h1 class="titulo__salvar__receitas">Salvar receitas preferidas</h1>
+       <div class="botoes__salvar__receitas">
+        <a class="configuracao__botao__salvar" href="">Cancelar</a>
+        <a class="configuracao__botao__salvar1" href="">OK</a>
+       </div>
+     </main>
+    
+    </body>
+  
+ 
+
+   
+   
+   
+   
+    
+    
+ 
 
