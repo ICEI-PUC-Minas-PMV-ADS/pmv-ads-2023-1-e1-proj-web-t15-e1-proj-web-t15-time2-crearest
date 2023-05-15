@@ -304,7 +304,50 @@ Comentários
     </html>
  
 
-   
+   # Tela de Categorias de Receita 
+      
+      
+     <div class="col-sm-8 checkbox-box">
+            <label> <input type="checkbox" value="massas" id="massas" />Massas</label>
+            <br />
+            <label> <input type="checkbox" value="bolos-tortas" id="bolos-tortas" />Bolos e Tortas</label>
+            <br />
+            <label> <input type="checkbox" value="sopas" id="sopas" />Sopas</label>
+            <br />
+            <label> <input type="checkbox" value="doces-sobremesas" id="doces-sobremesas" />Doces e Sobremesas</label>
+            <br />
+            <label> <input type="checkbox" value="lanches" id="lanches" />Lanches</label>
+            <br />
+            <label> <input type="checkbox" value="carnes" id="carnes" />Carnes</label>
+            <br />
+            <label> <input type="checkbox" value="veganos" id="veganos" />Veganos</label>
+            <br />
+            <label> <input type="checkbox" value="celiacos" id="celiacos" />Celíacos</label>
+            <br />
+            <label> <input type="checkbox" value="intolerancia" id="intolerancia" />Intolerância à lactose</label>              
+          </div>
+        </form>
+      </div>
+
+      <div class="animals">
+        <div class="receitas" data-id="aloe" data-category="massas">Macarrão</div>
+        <div class="receitas" data-category="veganos">Bolo de Chocolate Vegano</div>
+        <div class="receitas" data-category="sopas">Sopa de Feijão</div>
+        <div class="receitas" data-category="celiacos">Bolinho de Arroz</div>
+        <div class="receitas" data-category="intolerancia">Mousse de Maracujá</div>
+        <div class="receitas" data-category="carnes">Carne de Jaca</div>
+        <div class="receitas" data-category="lanches">Empadinha</div>
+        <div class="receitas" data-category="massas">Lasanha</div>
+        <div class="receitas" data-category="massas">Pão de Queijo</div>
+        <div class="receitas" data-category="doces-sobremesas">Bombom na Travessa</div>
+        <div class="receitas" data-category="bolos-tortas">Escondinho</div>
+        <div class="receitas" data-category="carnes">Carne Assada</div>
+        <div class="receitas" data-category="doces-sobremesas">Pudim</div>
+        <div class="receitas" data-category="doces-sobremesas">Pavê de Morango</div>
+        <div class="receitas" data-category="intolerancia">Brigadeiro</div>
+        <div class="receitas" data-category="massas">Pães</div>
+        <div class="receitas" data-category="massas">Pizzas</div>
+      </div>
    
    
    
