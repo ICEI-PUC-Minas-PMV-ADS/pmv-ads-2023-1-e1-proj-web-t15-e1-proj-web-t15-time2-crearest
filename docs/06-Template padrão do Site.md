@@ -50,5 +50,16 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/c5933652-8a60-4ae6-b64b-b0aa66c8b39e)
 
-
+# Tela de Categorias de Receitas 
+<ul> 
+  <li> Tela em que os usuários irão selecionar os itens que buscam. </li> 
+  </ul>
+  
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/image.png)
+  
+  
+  
+  
+  
+  
 
