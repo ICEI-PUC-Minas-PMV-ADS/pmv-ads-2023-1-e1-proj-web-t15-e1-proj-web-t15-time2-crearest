@@ -45,11 +45,11 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Requisitos Atendidos
 <ul>
-  <li>RF-001</li>
-  <li>RF-002</li>
-  <li>RF-003</li>
-  <li>RF-004</li>
-  <li>RF-005</li>
+  <li>RF-001 - Láisa Liane</li>
+  <li>RF-002 - Láisa Liane</li>
+  <li>RF-003 - Láisa Liane</li>
+  <li>RF-004 - Láisa Liane</li>
+  <li>RF-005 - Láisa Liane</li>
 </ul>
 
 ## Estrutura dos dados
@@ -100,10 +100,10 @@ Header {
 
 # Tela - Comentários
 
-## Requisitos Atendidos
+## Requisitos Atendidos e responsáveis
 <ul>
-  <li>RF-005</li>
-  <li>RF-006</li>
+  <li>RF-005 - Láisa Liane</li>
+  <li>RF-006 - Láisa Liane</li>
 </ul>
 
 ## Estrutura dos Dados
