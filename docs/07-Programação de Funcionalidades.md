@@ -3,6 +3,14 @@
 Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as funcionalidades do sistema, priorizadas na Sprint 3. Assim também, serão apresentados os requisitos funcionais atendidos e a estrutura dos dados.
 
 
+<h1> Tela de Login e Registro <h1>
+  <p> A tela de login e registro, apresenta um design confortavel ao usuário e tambem fornece a possibilidade de fazer o Cadastro ultilizando dados do Facebook, Twitter ou Google porém essas funções estão desabilitadas no momento pois foi usado a linguagem php para ativa-lás.  <p>
+  
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/a7fc5dd7-2539-41cd-8123-827cf6b02e26)
+<hr>
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/d12b8808-b2a8-4e4f-91d7-7e54a261df7a)
+
+
 <h2><strong>Requisitos Atendidos</strong></h2>
 <ul>
   <li>RF-002</li>
