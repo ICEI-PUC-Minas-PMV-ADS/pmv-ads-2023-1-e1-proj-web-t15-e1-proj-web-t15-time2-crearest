@@ -148,6 +148,10 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 <p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
 <p>2. A tela de login/registro é a primeira funcionalidade exibida pelo aplicativo</p>
 
+<h1>Tela da HOME</h1>
+  <p>A tela principal do nosso sistema apresenta notícias e informações sobre restrições alimentares. Na página contêm HTML, CSS e JavaScript dando todo a estilização e função necessária, para que o site fique interativo para com o usuário.</p>
+  
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/94b7aef1-bc20-4a53-b9ba-4d3c19131e85)
 
 <h2><strong>Requisitos Atendidos</strong></h2>
 <ul>
