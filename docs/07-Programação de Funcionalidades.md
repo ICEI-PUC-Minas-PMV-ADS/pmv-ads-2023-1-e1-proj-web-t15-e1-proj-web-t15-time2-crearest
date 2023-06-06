@@ -138,5 +138,8 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 <hr>
 
+<h2><strong>Instruções de acesso</strong></h2>
+<p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
+<p>2. A tela de login/registro é a primeira funcionalidade exibida pelo aplicativo</p>
 
 
