@@ -4,7 +4,7 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 
 <h1> Tela de Login e Registro </h1>
-  <p> A tela de login e registro, apresenta um design confortavel ao usuário e tambem fornece a possibilidade de fazer o Cadastro ultilizando dados do Facebook, Twitter ou Google., como representado a baixo.  <p>
+  <p> A tela de login e registro, apresenta um design confortavel ao usuário e tambem fornece a possibilidade de fazer o Cadastro ultilizando dados do Facebook, Twitter ou Google, como representado a baixo.  <p>
   
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/cd440589-09a0-453c-8b06-506fdfdac989)
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/653cc206-0174-4a97-95cd-d2a09ccdbf5e)
