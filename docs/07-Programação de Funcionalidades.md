@@ -174,17 +174,6 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 
 <body>
-    <header>
-        <div class="topnav">
-            <a class="active" href="#">Menu</a>
-            <a href=>Novidades</a>
-            <a href="/receitas/receitas.html">Receitas</a>
-            <a class="register" href="/users/register.html">Registrar</a>
-            <a class="log" href="/users/login.html">Login</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i></a>
-        </div>
-    </header>
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
