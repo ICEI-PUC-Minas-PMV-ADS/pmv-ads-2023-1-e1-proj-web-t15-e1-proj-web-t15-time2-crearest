@@ -384,6 +384,18 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
   <li>RF-005 - Láisa Liane</li>
 </ul>
 
+## Artefatos de Funcionalidade Atendidos
+
+<ul>
+  <li> Home</li>
+  <li> Categorias de Receitas</li>
+  <li> Login</li>
+  <li> Barra de pesquisa</li>
+  <li> Sair</li>
+  <li> Categoria: gastriste aguda</li>
+  <li> receitas relacionadas</li>
+ </ul>
+ 
 ## Estrutura dos dados
 
 
