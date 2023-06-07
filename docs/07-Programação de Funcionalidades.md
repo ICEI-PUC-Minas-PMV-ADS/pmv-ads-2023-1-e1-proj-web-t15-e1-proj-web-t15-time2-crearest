@@ -156,11 +156,11 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 <h2><strong>Requisitos Atendidos</strong></h2>
 <ul>
-  <li>RF-001</li>
-  <li>RF-005</li>
-  <li>RNF-001</li>
-  <li>RNF-004</li>
-  <li>RNF-009</li>
+  <li>RF-001</li> João Vitor
+  <li>RF-005</li> João Vitor
+  <li>RNF-001</li> João Vitor
+  <li>RNF-004</li> Bruno Santos
+  <li>RNF-009</li> Bruno Santos
 </ul>
 <hr>
 
