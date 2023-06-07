@@ -372,3 +372,164 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 <p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
 <p>2. A tela da Home é a segunda funcionalidade exibida pelo aplicativo</p>
 
+# Tela - Receita - Arroz couve-flor com iscas de frango
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/e55bd519-c9bd-4d9f-8274-1ba2e0d74e87)
+
+## Requisitos Atendidos
+<ul>
+  <li>RF-001 - Láisa Liane</li>
+  <li>RF-002 - Láisa Liane</li>
+  <li>RF-003 - Láisa Liane</li>
+  <li>RF-004 - Láisa Liane</li>
+  <li>RF-005 - Láisa Liane</li>
+</ul>
+
+## Estrutura dos dados
+
+
+<title>Receita de Arroz com Frango</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="/pages/home/home.html">
+            <img class="logo" src="../../../assets/img/Logo.png " alt="logo creatrest">
+        </a>
+
+        <nav class="menu-nav">
+            <a href="/pages/home/home.html" class="menu-nav-child">Home</a>
+            <a href="../receitas.html" class="menu-nav-child">Categorias de Receitas</a>
+        </nav>
+        <div class="pesquisar">
+            <input id="txtBusca" placeholder="O que você procura?">
+            <a href="../../users/login.html" class="menu-nav-child">Pesquisar</a>
+        </div>
+
+        <nav class="menu-nav">
+            <a href="../../users/login.html" class="menu-nav-child">Login</a>
+            <a href="/pages/home/home.html" class="menu-nav-child">Sair</a>
+        </nav>
+    </header>
+    <div class="barra-categoria"> Categoria: <a href="#">Grastrite Aguda</a></div>
+    <main class="main">
+
+        <h3 class="nome-receita">Arroz de Couve-flor com Iscas de Frango</h3>
+        <img class="img-receita" src="../../../assets/img/imgReceitas/receita-arrozcomfrango.jpeg"
+            alt="prato de refeicao">
+        <div class="informacoes-preparo">
+            <div class="dados-receita">
+                <div>
+                    <img src="../../../assets/img/imgReceitas/cronometro.png"
+                        alt="cronômetro representando o tempo de duração">
+                </div>
+                <div class="dados-receita__info">
+                    Tempo de preparo:
+                    <span>25 min</span>
+                </div>
+            </div>
+            <div class="dados-receita">
+                <div>
+                    <img src="../../../assets/img/imgReceitas/portion.png"
+                        alt="ícone representando quantidade de porções">
+                </div>
+                <div class="dados-receita__info">
+                    Rendimento:
+                    <span>25min</span>
+                </div>
+            </div>
+            <div class="dados-receita">
+                <div>
+                    <img src="../../../assets/img/imgReceitas/difiuldade.png"
+                        alt="ícone representando o nível de dificuldade">
+                </div>
+                <div class="dados-receita__info">
+                    Dificuldade:
+                    <span>25min</span>
+                </div>
+            </div>
+        </div>
+        <section>
+            <h4 class="titulo-secao">Ingredientes</h4>
+
+            <ul class="lista-ingredientes">
+                <li class="list-group-item">
+                    1 cabeça de Couve-flor crua
+                </li>
+                <li class="list-group-item">
+                    ½ cebola
+                </li>
+                <li class="list-group-item">
+                    1 dente de alho
+                </li>
+                <li class="list-group-item">
+                    ½ colher de chá de sal
+                </li>
+                <li class="list-group-item">
+                    2 colheres de sopa de azeite de oliva extravirgem
+                </li>
+                <li class="list-group-item">
+                    Salsinha a gosto
+                </li>
+                <li class="list-group-item">
+                    100 g de frango cortado em tiras
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4 class="titulo-secao">Modo de Preparo</h4>
+            <ol class="preparo__text">
+                <li class="list-group-item">Coloque a couve-flor lavada e crua em um processador ou liquidificador e
+                    bata até que
+                    fique em pedaços.</li>
+                <li class="list-group-item">Em uma panela, coloque 1 colher de azeite extravirgem, adicione cebola, alho
+                    e refogue.</li>
+                </li>
+                <li class="list-group-item">Junte a couve-flor e tempere com sal. Misture muito bem, adicione a água,
+                    tampe a panela e deixe cozinhar em fogo baixo por 4 minutos. </li>
+                </li>
+                <li class="list-group-item">Finalize com salsinha picada e prontinho!</li>
+                </li>
+            </ol>
+        </section>
+    </main>
+    <aside class="receitas-relacionadas-container">
+        <h4 class="">Receitas Relacionadas</h4>
+        <div class="receitas-relacionadas">
+            <div class="receitas-relacionadas__receita">
+                <a href="">
+                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
+                        alt="Imagem de receita relacionada: Frango ao Iogurt">
+                    <span>Frango ao Iogurte</span>
+                </a>
+            </div>
+            <div class="receitas-relacionadas__receita">
+                <a href="">
+                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
+                        alt="Imagem de receita relacionada: Frango ao Iogurt">
+                    <span>Frango ao Iogurte</span>
+                </a>
+            </div>
+            <div class="receitas-relacionadas__receita">
+                <a href="">
+                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
+                        alt="Imagem de receita relacionada: Frango ao Iogurt">
+                    <span>Frango ao Iogurte</span>
+                </a>
+            </div>
+            <div class="receitas-relacionadas__receita">
+                <a href="">
+                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
+                        alt="Imagem de receita relacionada: Frango ao Iogurt">
+                    <span>Frango ao Iogurte</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        Todos os direitos reservados à CrestRest.
+    </footer>
+</body>
+
+</html>
