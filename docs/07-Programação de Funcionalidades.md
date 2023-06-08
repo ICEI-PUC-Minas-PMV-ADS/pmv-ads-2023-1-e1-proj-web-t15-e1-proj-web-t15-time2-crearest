@@ -550,11 +550,11 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Requisitos atendidos
 <ul>
+  <li>RF-001</li>
+  <li>RF-002</li>
+  <li>RF-003</li>
+  <li>RF-004</li>
   <li>RF-005</li>
-  <li>RF-007</li>
-  <li>RF-008</li>
-  <li>RF-010</li>
-  <li>RF-011</li>
 </ul>
 
 ## Artefatos de funcionalidade
