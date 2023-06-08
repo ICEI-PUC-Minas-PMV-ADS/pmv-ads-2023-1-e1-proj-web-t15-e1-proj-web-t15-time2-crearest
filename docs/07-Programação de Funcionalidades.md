@@ -669,3 +669,140 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
     </html>
 
 
+# Categoria de Receitas
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../assets/styles/receitas/receitas.css">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <script src="../../assets/scripts/receitasScripts/receitas.js"></script>
+    <title>CreatRest</title>
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="#">Menu</a>
+            <a href=>Novidades</a>
+            <a href="/receitas/receitas.html">Receitas</a>
+            <a class="register" href="/users/register.html">Registrar</a>
+            <a class="log" href="/users/login.html">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+    <div id="myBtnContainer">
+        <h2>Categoria de Receitas</h2>
+        <div class="btnspace">
+            <button class="btn active" onclick="filterSelection('all')"> Todas</button>
+            <button class="btn" onclick="filterSelection('celiacos')"> Celíacos</button>
+            <button class="btn" onclick="filterSelection('lactose')"> Lactose</button>
+            <button class="btn" onclick="filterSelection('vegano')"> Vegano</button>
+            <button class="btn" onclick="filterSelection('doenca')"> Doença Renal</button>
+            <button class="btn" onclick="filterSelection('diabetes')"> Diabetes</button>
+            <button class="btn" onclick="filterSelection('dislipidemia')"> Dislipidemia</button>
+            <button class="btn" onclick="filterSelection('gastrite')"> Gastrite Aguda</button>
+        </div>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+        <div class="column celiacos">
+            <div class="content">
+                <a href="celiacos/bolo-mesclado-sem-gluten.html">
+                    <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                    <h4>Bolo Mesclado</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </a>
+            </div>
+        </div>
+        <div class="column celiacos">
+            <div class="content">
+                <a href="celiacos/canelone-sem-gluten.html">
+                    <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                    <h4>Canelone</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </a>
+            </div>
+        </div>
+        <div class="column celiacos">
+            <div class="content">
+                <a href="celiacos/nhoque-de-espinafre-sem-gluten.html">
+                    <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                    <h4>Nhoque de Espinafre</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </a>
+            </div>
+        </div>
+        <div class="column celiacos">
+            <div class="content">
+                <a href="celiacos/pao-frances-sem-gluten.html">
+                    <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                    <h4>Pão Frances</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </a>
+            </div>
+        </div>
+        <div class="column celiacos">
+            <div class="content">
+                <a href="celiacos/pave-de-ninho-com-morango-sem-gluten.html">
+                    <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                    <h4>Pave de Ninho com Morango</h4>
+                    <p>Lorem ipsum dolor..</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="column lactose">
+            <div class="content">
+                <img src="/w3images/lights.jpg" alt="Lactose" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column vegano">
+            <div class="content">
+                <img src="/w3images/nature.jpg" alt="Vegano" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+
+        <div class="column doenca">
+            <div class="content">
+                <img src="/w3images/cars1.jpg" alt="Doença Renal" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column diabetes">
+            <div class="content">
+                <img src="/w3images/cars2.jpg" alt="Diabetes" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column dislipidemia">
+            <div class="content">
+                <img src="/w3images/cars3.jpg" alt="Dislipidemia" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+
+        <div class="column gastrite">
+            <div class="content">
+                <img src="/w3images/people1.jpg" alt="Gastrite Aguda" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- END GRID -->
+    </div>
+
+</body>
+</html>
