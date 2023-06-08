@@ -671,6 +671,14 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 # Categoria de Receitas
 
+## Estrutura de dados, requisitos atendidos:
+<ul>
+  <li>RF-001 - Lorenzo </li>
+  <li>RF-002 - Maria Júlia</li>
+  <li>RF-004 - Maria Júlia </li>
+  <li>RF-005 - Lorenzo </li>
+</ul>
+
 <!DOCTYPE html>
 <html lang="en">
 
