@@ -565,16 +565,16 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Estrutura de dados
 
-<!DOCTYPE html>
-<html lang="pt-br">
+      <!DOCTYPE html>
+       <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="receitas.css">
-    <link rel="shortcut icon" href="/estudo/logo.png" type="image/x-icon">
-<body>
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="receitas.css">
+          <link rel="shortcut icon" href="/estudo/logo.png" type="image/x-icon">
+     <body>
     <header>
         <div class="topnav">
             <a class="" href="home.html">Menu</a>
@@ -665,7 +665,7 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
         }
 
     </script>
-</body>
-</html>
+    </body>
+    </html>
 
 
