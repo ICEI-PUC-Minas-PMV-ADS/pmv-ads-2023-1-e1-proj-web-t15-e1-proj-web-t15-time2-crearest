@@ -545,3 +545,127 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 </body>
 
 </html>
+
+# Tela - Receitas preferidas
+
+## Requisitos atendidos
+<ul>
+  <li>RF-005</li>
+  <li>RF-007</li>
+  <li>RF-008</li>
+  <li>RF-010</li>
+  <li>RF-011</li>
+</ul>
+
+## Artefatos de funcionalidade
+<ul>
+  <li>receitas.html</li>
+  <li>receitas.css</li>
+</ul>
+
+## Estrutura de dados
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="receitas.css">
+    <link rel="shortcut icon" href="/estudo/logo.png" type="image/x-icon">
+<body>
+    <header>
+        <div class="topnav">
+            <a class="" href="home.html">Menu</a>
+            <a href=>Novidades</a>
+            <a class="active" href="receitas.html">Receitas</a>
+            <a class="register" href="userRegister.html">Registrar</a>
+            <a class="log" href="login.html">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+    <div class="buscar">
+        <input type="text" onkeyup="Filtrar()" id="myInput" placeholder="O que você procura?">
+    </div>
+    </header>
+    <main>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div> <a href="doceDeMamao.html">
+                <img src="/assets/img/doce-de-mamao-verde-receita.webp" style="width:100%">
+                <div class="text">Doce de mamão verde</div></a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div> <a href="boloDeAmeixa.html">
+                <img src="/assets/img/bolo-de-ameixa.webp" style="width:100%">
+                <div class="text">Bolo de ameixa</div></a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div> <a href="lasanhaVeg.html">
+                <img src="/assets/img/lasanha-vegetariana-2-.webp" style="width:100%">
+                <div class="text">Lasanha vegetariana</div></a>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+</body>
+</html>
+
+
