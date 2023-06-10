@@ -174,21 +174,21 @@ ID	Descrição do Requisito	Prioridade
      <tbody>
         <tr>
             <th>RF-002</th>
-            <th>O site deve ter informações de categorias de alimentos e método de cozimento.</th>
+            <th>O site deve ter informações do método de cozimento.</th>
             <th>ALTA</th>
         </tr>
       </tbody>
       <tbody>
         <tr>
             <th>RF-003</th>
-            <th>Cada receita deve conter informação de porção</th>
+            <th>Cada receita deve conter informação de porção, grau de dificuldades e porção.</th>
             <th> ALTA</th>
         </tr>
        </tbody>
       <tbody>
         <tr>
          <th>RF-004</th>
-         <th>A página de receitas deve conter o nome da restrição alimentar idetificada antes da receita</th>
+         <th>A página de receitas deve conter o nome da restrição alimentar identificada antes da receita.</th>
          <th>ALTA</th>
         </tr>
       </tbody>
@@ -199,6 +199,14 @@ ID	Descrição do Requisito	Prioridade
          <th>ALTA</th>
         </tr>
       </tbody>
+     <tbody>
+        <tr>
+         <th>RF-006</th>
+         <th>As telas de receita devem indicar outras receitas relacionadas aquela restrição alimentar.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+
 </table>       
 
 ## Execução
