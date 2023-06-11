@@ -75,3 +75,17 @@
  |Critério de Êxito | - Estando na Home o usuário tem a possibilidade de navegar pelo site e acessar todas as funcionalidades que estão disponiveis. O usuario deve selecionar a função desejada e será redirecionado até ela.|
  
  |  	|  	|
+ 
+ 
+  ## Plano de Testes para a Tela de Categoria de Receitas
+
+<p>Segue abaixo casos de testes conforme resquisitos descritos para as telas das receitas especificados na sessão 3, etapa 4 deste projeto.
+ 
+ | **Caso de Teste** 	| CT-09- Categoria de Receitas	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento.;
+ RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
+| Objetivo do Teste 	|Verificar se o filtro utilizado em categorias está em devido funcionamento.|
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em perfil 5) Realizar a seleção de "Categorias" 6) Escolher a restrição desejada. 
+|Critério de Êxito | - Usuário deve, ao selecionar "Categorias", ser redirecionado a pagina completa, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
+|  	|  	|
