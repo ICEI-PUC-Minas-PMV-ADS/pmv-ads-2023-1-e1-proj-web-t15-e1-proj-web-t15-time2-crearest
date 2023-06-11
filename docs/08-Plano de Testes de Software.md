@@ -57,7 +57,17 @@
 |Critério de Êxito | - Usuário deve,ao selecionar "receitas",ser redirecionado a pagina completa,contendo cabeçalho,conteúdo e rodapé, - Usuário deve,ao selecionar a receita escolhida e selecionar botão salvar receita,receber uma notificação,através da mudanca de cor do botão,de que a receita foi salva.|
 |  	|  	|
  
-  | **Caso de Teste** 	| CT - 07 - Home |
+  | **Caso de Teste** 	| CT-07- Visualizar receitas salvas	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento.;RF-003- Cada receita deve conter informação de tempo, grau de dificuldades e porção; RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
+| Objetivo do Teste 	|O usuário deve visualizar todas as suas receitas salvas e seleciona-las a qualquer momento.|
+| Passos 	| 1) Na tela "home", selecionar "Receitas preferidas" 2) Selecionar uma de suas receitas salvas 3) Ser redirecionado a tela "Receitas" e visualizar a receita selecionada por completo.|
+|Critério de Êxito | - O Usuário deve visualizar na tela "Receitas preferidas" todas as suas receitas salvas - Ao clicar em uma de suas receitas salvas, deve ser redirecionado a tela contendo sua receita por completo e todas as propriedades do site, cabeçalho, conteúdo e rodapé.|
+|  	|  	|
+ 
+  ## Plano de Testes para a Tela principal(Home page)
+ 
+  | **Caso de Teste** 	| CT - 08 - Home |
 |:---:	|:---:	|
  |	Requisito Associado 	|  RF-001-Para cada receita, o site deve apresentar uma imagem correspondente, RNF-007- O sistema deve ser esteticamente agradável e entregar informações de forma clara, RF-009	Na página inicial do site, deve conter notícias dinâmicas sobre o objetivo do site e algumas receitas, RF-002	Na página inicial o usuário deve conseguir realizar login| 
  | Objetivo do Teste 	| Levar o usuario a ter acesso a todos as funções do site, como, Login, Registro, Receitas, pagina do usuario, etc. Ter informações sobre restrições, e também, possui imagens clicaveis a leva o usuario a  receita correspondente.|
