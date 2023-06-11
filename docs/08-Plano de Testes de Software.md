@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-## Plano de Testes para a Telas das Receitas
+## Plano de Testes para a Tela das Receitas
 
 <p>Segue abaixo casos de testes conforme resquisitos descritos para as telas das receitas especificados na sessão 3, etapa 4 deste projeto.
  
