@@ -85,6 +85,6 @@
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento. RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
 | Objetivo do Teste 	|Verificar se o filtro utilizado em categorias está em devido funcionamento.|
-| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em perfil 5) Realizar a seleção de "Categorias" 6) Escolher a restrição desejada. 
-|Critério de Êxito | - Usuário deve, ao selecionar "Categorias", ser redirecionado a pagina completa, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em Receitas 5) O clique resultará na tela principal de Categorias 6) Escolher a restrição desejada. 
+|Critério de Êxito | - Usuário deve, ao selecionar "Receitas", ser direcionado a pagina principal de categorias, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
 |  	|  	|
