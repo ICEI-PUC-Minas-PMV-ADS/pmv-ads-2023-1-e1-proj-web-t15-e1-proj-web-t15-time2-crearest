@@ -48,4 +48,26 @@ O teste foi iniciado a partir da tela da receita, após selecionado a função d
 
 
 >**Resultado**
-> - Quando o usuário clicou na função Bolo Mesclado sem Glúten, foi redirecionado para a tela da receita correspondente.
+> - Quando o usuário clica na função Receita, ele será direcionado para a tela principal onde contém todas as opções de filtro. 
+
+###   CT-06- Selecionar Função "Categoria"
+
+O teste foi iniciado a partir da tela de categoria.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20celiacos.png)
+
+>**Resultado**
+> - Quando o usuário clicou no botão Receitas foi direcionado para a função Categoria, foi redirecionado para a tela principal de filtros. 
+
+Com acesso aos filtros, o usuário terá sete opções de filtragem e cada uma delas direciona para a seleção desejada. 
+Visualizaçáo de cada filtragem: 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20celiacos.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20lactose.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20vegano.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20doenca.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20diabetes.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20dispidemia.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/Categoria%20-%20gastrite.png)
+
+
