@@ -56,3 +56,12 @@
 | Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em login 5)Realizar login do usuário 6) Clicar em “Receitas” 7) Escolher a Receita desejada e apertar botão salvar receita|
 |Critério de Êxito | - Usuário deve,ao selecionar "receitas",ser redirecionado a pagina completa,contendo cabeçalho,conteúdo e rodapé, - Usuário deve,ao selecionar a receita escolhida e selecionar botão salvar receita,receber uma notificação,através da mudanca de cor do botão,de que a receita foi salva.|
 |  	|  	|
+ 
+  | **Caso de Teste** 	| CT - 07 - Home |
+|:---:	|:---:	|
+ |	Requisito Associado 	|  RF-001-Para cada receita, o site deve apresentar uma imagem correspondente
+ | Objetivo do Teste 	| Levar o usuario a ter acesso a todos as funções do site, como, Login, Registro, Receitas, pagina do usuario, etc. Ter informações sobre restrições, e também, possui imagens clicaveis a leva o usuario a  receita correspondente.|
+ | Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) |
+ |Critério de Êxito | - Estandp na Home o usuário tem a possibilidade de navegar pelo site e acessar todas as funcionalidades que estão disponiveis. O usuario deve selecionar a função desejada e será redirecionado até ela.|
+ 
+ |  	|  	|
