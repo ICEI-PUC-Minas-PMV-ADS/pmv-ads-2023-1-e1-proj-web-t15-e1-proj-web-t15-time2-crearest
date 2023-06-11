@@ -62,6 +62,6 @@
  |	Requisito Associado 	|  RF-001-Para cada receita, o site deve apresentar uma imagem correspondente, RNF-007- O sistema deve ser esteticamente agradável e entregar informações de forma clara, RF-009	Na página inicial do site, deve conter notícias dinâmicas sobre o objetivo do site e algumas receitas, RF-002	Na página inicial o usuário deve conseguir realizar login| 
  | Objetivo do Teste 	| Levar o usuario a ter acesso a todos as funções do site, como, Login, Registro, Receitas, pagina do usuario, etc. Ter informações sobre restrições, e também, possui imagens clicaveis a leva o usuario a  receita correspondente.|
  | Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) |
- |Critério de Êxito | - Estandp na Home o usuário tem a possibilidade de navegar pelo site e acessar todas as funcionalidades que estão disponiveis. O usuario deve selecionar a função desejada e será redirecionado até ela.|
+ |Critério de Êxito | - Estando na Home o usuário tem a possibilidade de navegar pelo site e acessar todas as funcionalidades que estão disponiveis. O usuario deve selecionar a função desejada e será redirecionado até ela.|
  
  |  	|  	|
