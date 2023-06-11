@@ -89,7 +89,7 @@
 |Critério de Êxito | - Usuário deve, ao selecionar "Receitas", ser direcionado a pagina principal de categorias, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
 |  	|  	|
  
-   ## Plano de Testes para a Tela de Categoria de Receitas
+   ## Plano de Testes para a funcionalidade botão 'Contatos - Menu"
 
 <p>Segue abaixo casos de testes conforme resquisitos descritos para as telas das receitas especificados na sessão 3, etapa 4 deste projeto.
  
