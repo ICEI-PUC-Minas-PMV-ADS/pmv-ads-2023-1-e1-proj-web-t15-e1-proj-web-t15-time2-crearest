@@ -69,7 +69,7 @@
  
   | **Caso de Teste** 	| CT - 08 - Home |
 |:---:	|:---:	|
- |	Requisito Associado 	|  RF-001-Para cada receita, o site deve apresentar uma imagem correspondente, RNF-007- O sistema deve ser esteticamente agradável e entregar informações de forma clara, RF-009	Na página inicial do site, deve conter notícias dinâmicas sobre o objetivo do site e algumas receitas, RF-002	Na página inicial o usuário deve conseguir realizar login| 
+ |	Requisito Associado 	|  RF-001-Para cada receita, o site deve apresentar uma imagem correspondente, RF-007- O sistema deve ser esteticamente agradável e entregar informações de forma clara, RF-009	Na página inicial do site, deve conter notícias dinâmicas sobre o objetivo do site e algumas receitas, RF-002	Na página inicial o usuário deve conseguir realizar login| 
  | Objetivo do Teste 	| Levar o usuario a ter acesso a todos as funções do site, como, Login, Registro, Receitas, pagina do usuario, etc. Ter informações sobre restrições, e também, possui imagens clicaveis a leva o usuario a  receita correspondente.|
  | Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) |
  |Critério de Êxito | - Estando na Home o usuário tem a possibilidade de navegar pelo site e acessar todas as funcionalidades que estão disponiveis. O usuario deve selecionar a função desejada e será redirecionado até ela.|
@@ -83,8 +83,7 @@
  
  | **Caso de Teste** 	| CT-09- Categoria de Receitas	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento.;
- RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
+|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento. RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
 | Objetivo do Teste 	|Verificar se o filtro utilizado em categorias está em devido funcionamento.|
 | Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em perfil 5) Realizar a seleção de "Categorias" 6) Escolher a restrição desejada. 
 |Critério de Êxito | - Usuário deve, ao selecionar "Categorias", ser redirecionado a pagina completa, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
