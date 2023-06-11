@@ -45,7 +45,7 @@
 |  	|  	|
 
  
- ## Plano de Testes para a Telas das Receitas Preferidas
+ ## Plano de Testes para a Tela das Receitas Preferidas
 
 <p>Segue abaixo os casos de testes a serem realizados no site.
  
