@@ -93,7 +93,7 @@
 
 <p>Segue abaixo casos de testes conforme resquisitos descritos para as telas das receitas especificados na sessão 3, etapa 4 deste projeto.
  
-| **Caso de Teste** 	| CT-09- Categoria de Receitas	|
+| **Caso de Teste** 	| CT-10- Categoria de Receitas	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento. RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
 | Objetivo do Teste 	|Verificar se o filtro utilizado em categorias está em devido funcionamento.|
