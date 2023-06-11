@@ -683,22 +683,25 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="../../assets/styles/receitas/receitas.css">
+    <link rel="stylesheet" href="teste.css">
     <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <script src="teste.js"></script>
     <title>CreatRest</title>
 </head>
 
 <body>
     <header>
         <div class="topnav">
-            <a class="" href="#">Menu</a>
+            <a class="active" href="#">Menu</a>
             <a href=>Novidades</a>
-            <a href="receitas.html">Receitas</a>
+            <a href="/receitas/receitas.html">Receitas</a>
             <a class="register" href="/users/register.html">Registrar</a>
             <a class="log" href="/users/login.html">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
         </div>
     </header>
-    <div class="myBtnContainer">
+    <div id="myBtnContainer">
         <h2>Categoria de Receitas</h2>
         <div class="btnspace">
             <button class="btn active" onclick="filterSelection('all')"> Todas</button>
@@ -711,338 +714,65 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
             <button class="btn" onclick="filterSelection('gastrite')"> Gastrite Aguda</button>
         </div>
     </div>
+
+    <!-- Portfolio Gallery Grid -->
     <div class="row">
         <div class="column celiacos">
             <div class="content">
-                <a href="celiacos/bolo-mesclado-sem-gluten.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Bolo mesclado sem gluten.jpg" alt="Celíacos" style="width:100%">
-                    <h4>Bolo Mesclado</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column celiacos">
-            <div class="content">
-                <a href="celiacos/canelone-sem-gluten.html">
-                    <img class="imgReceitas" class="imgReceitas" src="../../assets/img/imgReceitas/Canelone sem glúten.jpg" alt="Celíacos" style="width:100%">
-                    <h4>Canelone</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column celiacos">
-            <div class="content">
-                <a href="celiacos/nhoque-de-espinafre-sem-gluten.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Nhoque de espinafre sem glúten.jpg" alt="Celíacos" style="width:100%">
-                    <h4>Nhoque de Espinafre</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column celiacos">
-            <div class="content">
-                <a href="celiacos/pao-frances-sem-gluten.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/paofrances-sem gluten.png" alt="Celíacos" style="width:100%">
-                    <h4>Pão Frances</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column celiacos">
-            <div class="content">
-                <a href="celiacos/pave-de-ninho-com-morango-sem-gluten.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Pavê de ninho com morango sem glúten.jpg" alt="Celíacos" style="width:100%">
-                    <h4>Pave de Ninho com Morango</h4>
-                </a>
+                <img src="/w3images/mountains.jpg" alt="Celíacos" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
         <div class="column lactose">
             <div class="content">
-                <a href="../receitas/lactose/bolo-de-banana-com-amendoim.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Bolo de banana com amendoim.jpg" alt="Lactose" style="width:100%">
-                    <h4>Bolo de Banana com Amendoim</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column lactose">
-            <div class="content">
-                <a href="../receitas/lactose/bolo-de-chocolate.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Bolo de chocolate.jpg" alt="Lactose" style="width:100%">
-                    <h4>Bolo de Chocolate</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column lactose">
-            <div class="content">
-                <a href="../receitas/lactose/crepioca-de-banana-com-melado.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Crepioca de banana com melado.jpg" alt="Lactose" style="width:100%">
-                    <h4>Crepioca de Banana com Melado</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column lactose">
-            <div class="content">
-                <a href="../receitas/lactose/pao-com-peito-de-peru.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Pão com peito de peru.jpg" alt="Lactose" style="width:100%">
-                    <h4>Pão de Queijo com Peito de Peru</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column lactose">
-            <div class="content">
-                <a href="../receitas/lactose/smoothie-de-banana-e-frutas-vermelhas.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Smoothie de banana e frutas vermelhas.jpg" alt="Lactose" style="width:100%">
-                    <h4>Smoothie de Banana e Frutas Vermelhas</h4>
-                </a>
+                <img src="/w3images/lights.jpg" alt="Lactose" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
         <div class="column vegano">
             <div class="content">
-                <a href="../receitas/vegano/lasanha-de-abobrinha.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Lasanha de abobrinha vegana.jpg" alt="Vegano" style="width:100%">
-                    <h4>Lasanha de Abobrinha</h4>
-                </a>
+                <img src="/w3images/nature.jpg" alt="Vegano" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
-        <div class="column vegano">
-            <div class="content">
-                <a href="../receitas/vegano/moqueca-de-palmito-pupunha.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Moqueca de palmito pupunha.jpg" alt="Vegano" style="width:100%">
-                    <h4>Moqueca de Palmito Pupunha</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column vegano">
-            <div class="content">
-                <a href="../receitas/vegano/rabanada-vegana.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Rabanada vegana.jpg" alt="Vegano" style="width:100%">
-                    <h4>Rabanada</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column vegano">
-            <div class="content">
-                <a href="../receitas/vegano/salpicao-vegano.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Salpicão vegano.jpg" alt="Vegano" style="width:100%">
-                    <h4>Salpicão</h4>
-                </a>
-            </div>
-        </div>
-        <div class="column vegano">
-            <div class="content">
-                <a href="../receitas/vegano/strogonoff-de-palmito.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Strogonoff de palmito.jpg" alt="Vegano" style="width:100%">
-                    <h4>Strogonoff de Palmito</h4>
-                </a>
-            </div>
-        </div>
+
         <div class="column doenca">
             <div class="content">
-                <a href="../receitas/doenca-renal/arroz-ervilhas-castanha.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Arroz Cateto com Açafrão-da-terra, Ervilhas Frescas & Castanhas de Caju.jpg" alt="Doença Renal" style="width:100%">
-                    <h4>Arroz com Ervilhas e Castanha</h4>
-            </div>
-        </div>
-        <div class="column doenca">
-            <div class="content">
-                <a href="../receitas/doenca-renal/bebida-vegetal-de-macadamia.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Bebida Vegetal de Macadâmia.jpg" alt="Doença Renal" style="width:100%">
-                    <h4>Bebida Vegetal de Macadâmia</h4>
-            </div>
-        </div>
-        <div class="column doenca">
-            <div class="content">
-                <a href="../receitas/doenca-renal/estrogonofe-de-cogumelos-paris-com-creme-de-arroz.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Estrogonofe de Cogumelos Paris com Creme de Arroz.jpg" alt="Doença Renal" style="width:100%">
-                    <h4>Strogonoff de Cogumelos</h4>
-            </div>
-        </div>
-        <div class="column doenca">
-            <div class="content">
-                <a href="../../pages/receitas/doenca-renal/omelete-de-liquidificador.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Omelete de liquidificador.jpg" alt="Doença Renal" style="width:100%">
-                    <h4>Omelete de Liquidificador</h4>
-            </div>
-        </div>
-        <div class="column doenca">
-            <div class="content">
-                <a href="../../pages/receitas/doenca-renal/ricota-vegetal.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Ricota Vegetal.jpg" alt="Doença Renal" style="width:100%">
-                    <h4>Ricota Vegetal</h4>
+                <img src="/w3images/cars1.jpg" alt="Doença Renal" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
         <div class="column diabetes">
             <div class="content">
-                <a href="../receitas/diabetes/bolo-diet-de-limao.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Bolo diet de limão.jpg" alt="Diabetes" style="width:100%">
-                    <h4>Bolo Diet de Limão</h4>
-            </div>
-        </div>
-        <div class="column diabetes">
-            <div class="content">
-                <a href="../receitas/diabetes/caponata-de-berinjela.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Caponata de berinjela.jpg" alt="Diabetes" style="width:100%">
-                    <h4>Caponata da Berinjela</h4>
-            </div>
-        </div>
-        <div class="column diabetes">
-            <div class="content">
-                <a href="../receitas/diabetes/salada-de-cevadinha.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Salada de Cevadinha.jpg" alt="Diabetes" style="width:100%">
-                    <h4>Salada de Cevadinha</h4>
-            </div>
-        </div>
-        <div class="column diabetes">
-            <div class="content">
-                <a href="../receitas/diabetes/salmao-crocante-com-legumes.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Salmão crocante com legumes.jpg" alt="Diabetes" style="width:100%">
-                    <h4>Salmão Crocante com Legumes</h4>
-            </div>
-        </div>
-        <div class="column diabetes">
-            <div class="content">
-                <a href="../receitas/diabetes/sanduiche-de-atum-e-abacate.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Sanduíche de atum e abacate.jpg" alt="Diabetes" style="width:100%">
-                    <h4>Sansuiche de Atum e Abacate</h4>
+                <img src="/w3images/cars2.jpg" alt="Diabetes" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
         <div class="column dislipidemia">
             <div class="content">
-                <a href="../receitas/dislipidemia/arroz-integral-com-cenoura.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/ARROZ INTEGRAL COM CENOURA.jpg" alt="Dislipidemia" style="width:100%">
-                    <h4>Arroz Integral com Cenoura</h4>
+                <img src="/w3images/cars3.jpg" alt="Dislipidemia" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
-        <div class="column dislipidemia">
-            <div class="content">
-                <a href="../receitas/dislipidemia/cookies-de-aveia.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Cookies de aveia.jpg" alt="Dislipidemia" style="width:100%">
-                    <h4>Cookies de Aveia</h4>
-            </div>
-        </div>
-        <div class="column dislipidemia">
-            <div class="content">
-                <a href="../receitas/dislipidemia/creme-de-abacate.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Creme de Abacate.jpg" alt="Dislipidemia" style="width:100%">
-                    <h4>Creme de Abacate</h4>
-            </div>
-        </div>
-        <div class="column dislipidemia">
-            <div class="content">
-                <a href="../receitas/dislipidemia/panqueca-de-berinjela.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Panqueca de berinjela.jpg" alt="Dislipidemia" style="width:100%">
-                    <h4>Panqueca de Berinjela</h4>
-            </div>
-        </div>
-        <div class="column dislipidemia">
-            <div class="content">
-                <a href="../receitas/dislipidemia/salada-de-alface-com-cenoura-e-limao.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Salada de Alface com Cenoura e Limão.jpg" alt="Dislipidemia" style="width:100%">
-                    <h4>Salada de Alface com Cenoura</h4>
-            </div>
-        </div>
+
         <div class="column gastrite">
             <div class="content">
-                <a href="../receitas/gastrite-aguda/almondegas-de-berinjela.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Almôndegas de berinjela.jpg" alt="Gastrite Aguda" style="width:100%">
-                    <h4>Almondegas de Berinjela</h4>
-            </div>
-        </div>
-        <div class="column gastrite">
-            <div class="content">
-                <a href="../receitas/gastrite-aguda/arroz-iscas-frango.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/receita-arrozcomfrango.jpeg" alt="Gastrite Aguda" style="width:100%">
-                    <h4>Arroz com Iscas de Frango</h4>
-            </div>
-        </div>
-        <div class="column gastrite">
-            <div class="content">
-                <a href="../receitas/gastrite-aguda/canneloni-de-espinafre.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Canneloni de espinafre.jpg" alt="Gastrite Aguda" style="width:100%">
-                    <h4>Canneloni de Espinafre</h4>
-            </div>
-        </div>
-        <div class="column gastrite">
-            <div class="content">
-                <a href="../receitas/gastrite-aguda/hamburguer-de-aveia.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Hambúrguer de aveia.jpg" alt="Gastrite Aguda" style="width:100%">
-                    <h4>Hamburguer de Aveia</h4>
-            </div>
-        </div>
-        <div class="column gastrite">
-            <div class="content">
-                <a href="../receitas/gastrite-aguda/taco-de-alface-com-frango-e-legumes.html">
-                    <img class="imgReceitas" src="../../assets/img/imgReceitas/Taco de alface com frango e legumes.jpg" alt="Gastrite Aguda" style="width:100%">
-                    <h4>Taco de Alface com Frango e Legumes</h4>
+                <img src="/w3images/people1.jpg" alt="Gastrite Aguda" style="width:100%">
+                <h4>nome da receita</h4>
+                <p>Lorem ipsum dolor..</p>
             </div>
         </div>
     </div>
-    <script src="../../assets/scripts/receitasScripts/receitas.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-    <script>
-        var filterCheckboxes = $('input[type="checkbox"]');
-        var filterFunc = function () {
-            var selectedFilters = [];
-            filterCheckboxes.filter(":checked").each(function () {
-                var v = this.value;
-                if (selectedFilters.indexOf(v) === -1) selectedFilters.push(v);
-            });
+    </div>
+    <!-- END GRID -->
+    </div>
 
-            $(".receitas")
-                .hide()
-                .filter(function (_, a) {
-                    var itemCat = $(a).data("category").split(" ");
-                    return selectedFilters.every(function (c) {
-                        return itemCat.indexOf(c) > -1;
-                    });
-                })
-                .show();
-        };
-        filterCheckboxes.on("change", filterFunc);
-        filterSelection("all"); 
-        function filterSelection(c) {
-            var x, i;
-            x = document.getElementsByClassName("column");
-            if (c == "all") c = "";            
-            for (i = 0; i < x.length; i++) {
-                w3RemoveClass(x[i], "show");
-                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-            }
-        }
-
-        // Show filtered elements
-        function w3AddClass(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                if (arr1.indexOf(arr2[i]) == -1) {
-                    element.className += " " + arr2[i];
-                }
-            }
-        }
-
-        // Hide elements that are not selected
-        function w3RemoveClass(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                while (arr1.indexOf(arr2[i]) > -1) {
-                    arr1.splice(arr1.indexOf(arr2[i]), 1);
-                }
-            }
-            element.className = arr1.join(" ");
-        }
-
-        // Add active class to the current button (highlight it) and remove the oldest active class
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
-    </script>
 </body>
 
 </html>
