@@ -43,3 +43,16 @@
 | Passos 	| 1) Na tela da Receita clicar no botão indicado no rodapé para receitas relacionadas|
 |Critério de Êxito | - O botão da receita relacionada indicada deve carregar completamente para a receita escolhida pelo usuário.|
 |  	|  	|
+
+ 
+ ## Plano de Testes para a Telas das Receitas Preferidas
+
+<p>Segue abaixo os casos de testes a serem realizados no site.
+ 
+ | **Caso de Teste** 	| **CT-01- Salvar receitas	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento.;RF-003- Cada receita deve conter informação de tempo, grau de dificuldades e porção; RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
+| Objetivo do Teste 	|Levar a receita salva pelo usuário até a página receitas preferidas.|
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar em login 5)Realizar login do usuário 6) Clicar em “Receitas” 7) Escolher a Receitas desejada e apertar botão salvar receita|
+|Critério de Êxito | - Usuário deve,ao selecionar "receitas",ser redirecionado a pagina completa,contendo cabeçalho,conteúdo e rodapé, usuário deve,ao selecionar a receita escolhida e selecionar botão salvar receita,receber uma notificação,através da mudanca de cor do botão,de que a receita foi salva.|
+|  	|  	|
