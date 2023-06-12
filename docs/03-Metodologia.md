@@ -259,3 +259,47 @@ ID	Descrição do Requisito	Prioridade
  
 </table>       
 
+
+ # Sprint 4
+Prevista para o período correspondente entre 15/05 a 11/06.
+
+1. Planejamento
+
+Principais itens entregáveis: Programação das demais funcionalidades, Plano de Testes de Software e Registro de Testes de Software.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/a6bb9a22-d4a7-4419-8a6c-312f6269b013)
+
+### Tarefas 
+<p>Para as tasks dessa sprint, as tarefas foram atribuidas conforme abaixo:</p>
+<table>
+   <tbody>
+        <tr>
+            <th>Tela- Home Page</th>
+            <th>Bruno César e João Victor</th>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+            <th>Tela - Login</th>
+            <th>Lorenzo Grei</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <th>Telas das Receitas</th>
+            <th>Láisa Liane</th>
+        </tr>
+       </tbody>
+        <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela Receitas - Salvar Receitas Preferidas</th>
+         <th>Vinicius Vieira</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela home - Categoria de Receitas  </th>
+         <th>Maria Júlia</th>
+        </tr>
+      </tbody>
+ 
+</table>       
