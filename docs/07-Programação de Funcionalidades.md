@@ -704,3 +704,96 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 </body>
 
 </html>
+
+# Tela - Contato 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte1.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte2.png)
+
+<body>
+      <div class="contato">
+        <h1>Contatos</h1>
+        <p>
+          Nome: Bruno César <br />
+          E-mail: Brunwsmi@email.com<br />
+          Telefone: +341 931 231 680
+        </p>
+        <p>
+          Nome: Maria Julia <br />
+          E-mail: Majewsmi@email.com<br />
+          Telefone: +341 932 231 680
+        </p>
+        <p>
+          Nome: Lorenzo <br />
+          E-mail: Lorewsmi@email.com<br />
+          Telefone: +341 933 231 680
+        </p>
+        <p>
+          Nome: Laisa <br />
+          E-mail: Laisewsmi@email.com<br />
+          Telefone: +341 934 231 680
+        </p>
+        <p>
+          Nome: João Vitor <br />
+          E-mail: Jveswmi@email.com<br />
+          Telefone: +341 935 231 680
+        </p>
+        <p>
+          Nome: Vinicius <br />
+          E-mail: Viniciewsmi@email.com<br />
+          Telefone: +341 936 231 680
+        </p>
+        <div class="container">
+          <form id="contact" action="" method="post">
+            <h3>Formulario para contato</h3>
+            <fieldset>
+              <input
+                placeholder="Seu nome"
+                type="text"
+                tabindex="1"
+                required
+                autofocus
+              />
+            </fieldset>
+            <input
+              placeholder="Seu email"
+              type="email"
+              tabindex="2"
+              required
+              autofocus
+            />
+
+            <fieldset></fieldset>
+            <input
+              placeholder="Seu Telefone (opcional)"
+              type="tel"
+              tabindex="3"
+              required
+              autofocus
+            />
+
+            <fieldset>
+              <input
+                placeholder="Digite sua mensagem aqui"
+                type="text"
+                tabindex="4"
+                required
+                autofocus
+              />
+            </fieldset>
+            <fieldset>
+              <button
+                name="submit"
+                type="submit"
+                id="contact-submit"
+                data-submit="...Sending"
+              >
+                Contactar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </body>
+  </body>
+
+
