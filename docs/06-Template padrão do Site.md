@@ -20,13 +20,14 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
     
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/a91bf1cc-5232-4e3a-b554-6cf107aedf20)
 
-# Tela de Comentários
+# Tela de contatos
 <ul>
-  <li>Tela onde os usuários podem compartilhar suas opiniões, dicas e sugestões sobre uma receita específica
+  <li>Tela de contato com os criadores do site, duvidas e opiniões.
   </li>
 </ul>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b4a3307f-f915-4212-a5b5-a8ff123f0354)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte1.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte2.png)
 
 # Tela Receitas Favoritas
 <ul>
