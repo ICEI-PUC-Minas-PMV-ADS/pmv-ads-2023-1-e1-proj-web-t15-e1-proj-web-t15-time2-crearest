@@ -706,6 +706,10 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 </html>
 
 # Tela - Contato 
+RF-006 - Bruno
+RF-007 - Bruno
+RF-008 - Bruno
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte1.png)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/parte2.png)
 
