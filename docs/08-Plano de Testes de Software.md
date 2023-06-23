@@ -89,13 +89,13 @@
 |Critério de Êxito | - Usuário deve, ao selecionar "Receitas", ser direcionado a pagina principal de categorias, contendo cabeçalho, conteúdo e rodapé, - O usuário ao selecionar a categoria escolhida será direcionado para a filtragem, onde haverá apenas receitas sobre a restrição buscada. 
 |  	|  	|
  
-   ## Plano de Testes para a funcionalidade botão 'Contatos - Menu"
+   ## Plano de Testes para a funcionalidade botão 'Contatos'
 
 <p>Segue abaixo casos de testes conforme resquisitos descritos para as telas das receitas especificados na sessão 3, etapa 4 deste projeto.
  
-| **Caso de Teste** 	| CT-10- Categoria de Receitas	|
+| **Caso de Teste** 	| Contato	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001-Para cada receita, o site deve apresentar uma imagem correspondente; RF-002- O site deve ter informações do método de cozimento. RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita; RF-005-A logo, em todas as paginas, devem levar o cliente a página Home.|
-| Objetivo do Teste 	|Verificar se o filtro utilizado em categorias está em devido funcionamento.|
-| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a Home 4) Clicar na seta indicada para baixo 5) O clique resultará na tela solcitadada Menu ou Contato 6). 
-|Critério de Êxito | - Usuário deve, ao selecionar "Contato ou Menu", ser direcionado a pagina Contato ou menu, contendo cabeçalho, conteúdo e rodapé.
+|	Requisito Associado 	|RF-006- A página deve conter um link para os contatos dos criadores do site. RF-007- A página de contatos deve ter um formulário de contato. RF-008- O formulário de contato deve ser capaz de enviar mensagens por e-mail.|
+| Objetivo do Teste 	|Verificar se a funcionalidade de contatos e o formulário de contato estão funcionando corretamente.|
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página 4) Navegar até o rodapé da página 5) Clicar no link "Contatos" 6) Verificar se a página de contatos é exibida corretamente 7) Verificar se todos os contatos dos criadores do site estão listados 8) Preencher o formulário de contato com informações válidas 9) Enviar o formulário de contato 10) Verificar se a mensagem foi enviada com sucesso
+|Critério de Êxito | - Ao clicar no link "Contatos" no rodapé, a página de contatos deve ser exibida corretamente, - Todos os contatos dos criadores do site devem estar listados na página, - O formulário de contato deve aceitar informações válidas, - Ao enviar o formulário de contato, a mensagem deve ser enviada com sucesso.
