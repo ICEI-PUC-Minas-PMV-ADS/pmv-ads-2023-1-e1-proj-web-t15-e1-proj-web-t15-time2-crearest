@@ -3,151 +3,38 @@
 Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as funcionalidades do sistema, priorizadas na Sprint 3. Assim também, serão apresentados os requisitos funcionais atendidos e a estrutura dos dados.
 
 
-<h1> Tela de Login e Registro </h1>
-  <p> A tela de login e registro, apresenta um design confortavel ao usuário e tambem fornece a possibilidade de fazer o Cadastro ultilizando dados do Facebook, Twitter ou Google, como representado a baixo.  <p>
+<h1> Tela de Login (RF-01 e RF-02) </h1>
+
+  <p> A tela de login , apresenta um design confortavel ao usuário para ter acesso ao seu perfil e receitas salvas <p>
+
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/0316acb7-9f96-4f82-a802-74b3753561e6)
   
- ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/cd440589-09a0-453c-8b06-506fdfdac989)
- ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/653cc206-0174-4a97-95cd-d2a09ccdbf5e)
-
-
-
-
-
-<h2><strong>Requisitos Atendidos</strong></h2>
+ <h2><strong>Requisitos Atendidos</strong></h2>
+ 
 <ul>
   <li>RF-002</li>
   <li>RF-003</li>
-  <li>RNF-008</li>
-  <li>RNF-007</li>
-  <li>RNF-003</li>
 </ul>
 <hr>
-
 
  <h2><strong>Artefados da funcionalidade</strong></h2>
  <ul>
   <li>login.html</li>
-  <li>register.html</li>
   <li>login.css</li>
-  <li>register.css</li>
+  <li>script-controle-usuario-logado.js</li>
+  <li>login.js</li>
 </ul>
 <hr>
 
 <h2><strong>Estrutura de dados</strong></h2>
 
-<!DOCTYPE html>
-<html lang="pt-br">
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/addcdc55-8b5b-42ed-8655-40c3a2827c67)
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/user/login.css">
-    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
-</head>
 
-<body>
-    <div class="container">
-        <form action="pages/home/home.html">
-          <div class="row">
-            <h2 style="text-align:center">Faça seu Login</h2>
-            <div class="vl">
-              <span class="vl-innertext"></span>
-            </div>
-      
-            <div class="col">
-              <a href="#" class="fb btn">
-                <i class="fa fa-facebook fa-fw"></i> Entrar com o Facebook
-              </a>
-              <a href="#" class="twitter btn">
-                <i class="fa fa-twitter fa-fw"></i> Entrar com o Twitter
-              </a>
-              <a href="#" class="google btn">
-                <i class="fa fa-google fa-fw"></i> Entrar com o Google+
-              </a>
-            </div>
-      
-            <div class="col">
-              <div class="hide-md-lg">
-                <p><i class="fa-sharp fa-light fa-grip-lines-vertical"></i><p>
-              </div>
-      
-              <input type="text" name="username" placeholder="Login" required>
-              <input type="password" name="password" placeholder="Senha" required>
-              <input type="submit" value="Entrar">
-            </div>
-      
-          </div>
-        </form>
-      </div>
-      
-      <div class="bottom-container">
-        <div class="row">
-          <div class="col">
-            <a href="/user/register.html" style="color:rgb(255, 255, 255)" class="btn">Cadastre-se</a>
-          </div>
-          <div class="col">
-            <a href="#" style="color:rgb(255, 255, 255)" class="btn">Esqueceu sua senha?</a>
-          </div>
-        </div>
-      </div>
-
-</body>
-
-</html>
-
-<hr>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/styles/register.css">
-  <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
-</head>
-<body>
-
-<form action="/home/home.html" style="border:1px solid #ccc">
-  <div class="container">
-    <h1>Cadastre-se</h1>
-    <p>Preencha o formulário para completar o Cadastro </p>
-    <hr>
-
-    <label for="email"><b>E-mail</b></label>
-    <input type="text" placeholder="Coloque seu e-mail" name="email" required>
-
-    <label for="psw"><b>Senha</b></label>
-    <input type="password" placeholder="Coloque sua Senha" name="psw" required>
-
-    <label for="psw-repeat"><b>Repita a Senha</b></label>
-    <input type="password" placeholder="Repita a Senha" name="psw-repeat" required>
-    
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Salvar Senha
-    </label>
-    
-    <p>Ao criar uma conta, você concorda com nossos <a href="#" style="color:dodgerblue">Termos & Privacidade</a>.</p>
-
-    <div class="clearfix">
-
-      <a href="/users/login.html"></a>
-      <button type="button" class="cancelbtn">Cancelar</button>
-     </a>
-      <button type="submit" class="signupbtn">Entrar</button>
-    </div>
-  </div>
-</form>
-
-</body>
-</html>
-
-<hr>
 
 <h2><strong>Instruções de acesso</strong></h2>
 <p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
-<p>2. A tela de login/registro é a primeira funcionalidade exibida pelo aplicativo</p>
+<p> 2. A tela de login é a primeira funcionalidade exibida pelo aplicativo</p>
 
 <h1>Tela da HOME</h1>
   <p>A tela principal do nosso sistema apresenta notícias e informações sobre restrições alimentares. Na página contêm HTML, CSS e JavaScript dando todo a estilização e função necessária, para que o site fique interativo para com o usuário.</p>
@@ -372,8 +259,13 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 <p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
 <p>2. A tela da Home é a segunda funcionalidade exibida pelo aplicativo</p>
 
-# Tela - Receita - Arroz couve-flor com iscas de frango
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/e55bd519-c9bd-4d9f-8274-1ba2e0d74e87)
+# Tela das Receitas 
+<p>A tela das receitas permite ao usuário conferir informações sobre a receita escolhida, incluindo a identificação da restrição, tempo de preparo, rendimento, grau de dificuldades, permite salvar a receita e no footer o usuário tem indicações de receitas para aquela restrição. </p>
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/4a384c66-a3f1-4a3b-aac7-880eed6d3df5)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/484aee34-f783-4f49-a3a9-8548fe34ddb8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b4f3e760-acc1-435a-aed5-282759cfbef6)
+
 
 ## Requisitos Atendidos
 <ul>
@@ -386,165 +278,16 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Artefatos de Funcionalidade Atendidos
 
-<ul>
-  <li> Home</li>
-  <li> Categorias de Receitas</li>
-  <li> Login</li>
-  <li> Barra de pesquisa</li>
-  <li> Sair</li>
-  <li> Categoria: gastriste aguda</li>
-  <li> receitas relacionadas</li>
- </ul>
- 
+ <ul>
+  <li>receitas.html</li>
+  <li>receita.css</li>
+  <li>receita.js</li>
+</ul>
+<hr>
+
 ## Estrutura dos dados
 
-
-<title>Receita de Arroz com Frango</title>
-</head>
-
-<body>
-
-    <header class="cabecalho">
-
-        <a href="/pages/home/home.html">
-            <img class="logo" src="../../../assets/img/Logo.png " alt="logo creatrest">
-        </a>
-
-        <nav class="menu-nav">
-            <a href="/pages/home/home.html" class="menu-nav-child">Home</a>
-            <a href="../receitas.html" class="menu-nav-child">Categorias de Receitas</a>
-        </nav>
-        <div class="pesquisar">
-            <input id="txtBusca" placeholder="O que você procura?">
-            <a href="../../users/login.html" class="menu-nav-child">Pesquisar</a>
-        </div>
-
-        <nav class="menu-nav">
-            <a href="../../users/login.html" class="menu-nav-child">Login</a>
-            <a href="/pages/home/home.html" class="menu-nav-child">Sair</a>
-        </nav>
-    </header>
-    <div class="barra-categoria"> Categoria: <a href="#">Grastrite Aguda</a></div>
-    <main class="main">
-
-        <h3 class="nome-receita">Arroz de Couve-flor com Iscas de Frango</h3>
-        <img class="img-receita" src="../../../assets/img/imgReceitas/receita-arrozcomfrango.jpeg"
-            alt="prato de refeicao">
-        <div class="informacoes-preparo">
-            <div class="dados-receita">
-                <div>
-                    <img src="../../../assets/img/imgReceitas/cronometro.png"
-                        alt="cronômetro representando o tempo de duração">
-                </div>
-                <div class="dados-receita__info">
-                    Tempo de preparo:
-                    <span>25 min</span>
-                </div>
-            </div>
-            <div class="dados-receita">
-                <div>
-                    <img src="../../../assets/img/imgReceitas/portion.png"
-                        alt="ícone representando quantidade de porções">
-                </div>
-                <div class="dados-receita__info">
-                    Rendimento:
-                    <span>25min</span>
-                </div>
-            </div>
-            <div class="dados-receita">
-                <div>
-                    <img src="../../../assets/img/imgReceitas/difiuldade.png"
-                        alt="ícone representando o nível de dificuldade">
-                </div>
-                <div class="dados-receita__info">
-                    Dificuldade:
-                    <span>25min</span>
-                </div>
-            </div>
-        </div>
-        <section>
-            <h4 class="titulo-secao">Ingredientes</h4>
-
-            <ul class="lista-ingredientes">
-                <li class="list-group-item">
-                    1 cabeça de Couve-flor crua
-                </li>
-                <li class="list-group-item">
-                    ½ cebola
-                </li>
-                <li class="list-group-item">
-                    1 dente de alho
-                </li>
-                <li class="list-group-item">
-                    ½ colher de chá de sal
-                </li>
-                <li class="list-group-item">
-                    2 colheres de sopa de azeite de oliva extravirgem
-                </li>
-                <li class="list-group-item">
-                    Salsinha a gosto
-                </li>
-                <li class="list-group-item">
-                    100 g de frango cortado em tiras
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h4 class="titulo-secao">Modo de Preparo</h4>
-            <ol class="preparo__text">
-                <li class="list-group-item">Coloque a couve-flor lavada e crua em um processador ou liquidificador e
-                    bata até que
-                    fique em pedaços.</li>
-                <li class="list-group-item">Em uma panela, coloque 1 colher de azeite extravirgem, adicione cebola, alho
-                    e refogue.</li>
-                </li>
-                <li class="list-group-item">Junte a couve-flor e tempere com sal. Misture muito bem, adicione a água,
-                    tampe a panela e deixe cozinhar em fogo baixo por 4 minutos. </li>
-                </li>
-                <li class="list-group-item">Finalize com salsinha picada e prontinho!</li>
-                </li>
-            </ol>
-        </section>
-    </main>
-    <aside class="receitas-relacionadas-container">
-        <h4 class="">Receitas Relacionadas</h4>
-        <div class="receitas-relacionadas">
-            <div class="receitas-relacionadas__receita">
-                <a href="">
-                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
-                        alt="Imagem de receita relacionada: Frango ao Iogurt">
-                    <span>Frango ao Iogurte</span>
-                </a>
-            </div>
-            <div class="receitas-relacionadas__receita">
-                <a href="">
-                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
-                        alt="Imagem de receita relacionada: Frango ao Iogurt">
-                    <span>Frango ao Iogurte</span>
-                </a>
-            </div>
-            <div class="receitas-relacionadas__receita">
-                <a href="">
-                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
-                        alt="Imagem de receita relacionada: Frango ao Iogurt">
-                    <span>Frango ao Iogurte</span>
-                </a>
-            </div>
-            <div class="receitas-relacionadas__receita">
-                <a href="">
-                    <img src="../../../assets/img/frango-ao-iogurte.jpg"
-                        alt="Imagem de receita relacionada: Frango ao Iogurt">
-                    <span>Frango ao Iogurte</span>
-                </a>
-            </div>
-        </div>
-    </aside>
-    <footer class="footer">
-        Todos os direitos reservados à CrestRest.
-    </footer>
-</body>
-
-</html>
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/f5b9110d-541c-4db8-819a-ae255108f634)
 
 # Tela - Receitas preferidas
 
