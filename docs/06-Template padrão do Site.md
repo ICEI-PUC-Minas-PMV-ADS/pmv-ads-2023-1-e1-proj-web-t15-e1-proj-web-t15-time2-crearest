@@ -55,7 +55,8 @@ O template gerado está disponível na pasta pages, do repositório CreatRest e 
   <li>Tela onde ficará guardado todas as receitas favoritas salvas pelos usuários.</li>
 </ul>
 
-![image](https://github.com/vinicius665/receitas-preferidas/blob/main/projeto%20site%20receitas%20preferidas/assets/print%20receitas%20favoritas.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/TelaReceitasPref1.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/TelaReceitasPref2.png)
 
 # Tela de Categorias de Receitas 
 <ul> 
