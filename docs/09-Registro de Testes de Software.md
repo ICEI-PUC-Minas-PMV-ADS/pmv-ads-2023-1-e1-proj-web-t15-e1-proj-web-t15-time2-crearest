@@ -5,7 +5,9 @@
 
 O teste foi iniciado pela tela de Home. Seguido pela função receitas, após escolhido uma receita.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/c3cfaf18-f4fa-4a80-ba1a-572ac6292204)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/4a384c66-a3f1-4a3b-aac7-880eed6d3df5)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/484aee34-f783-4f49-a3a9-8548fe34ddb8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b4f3e760-acc1-435a-aed5-282759cfbef6)
 
 >**Resultado**
 > - Quando o usuário acessou a receita através da categoria de receitas, teve acesso ao conteúdo total da página e links relacionados"
@@ -33,9 +35,8 @@ O teste foi iniciado a partir da tela da receita, após selecionado a função d
 
 O teste foi iniciado a partir da tela da receita, após selecionado a função do botão Login.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/b7dece60-6217-4fe5-8d3c-01661e5518be)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/8285cc0f-b0c1-44ef-bdf3-0a164190e743)
-
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/0316acb7-9f96-4f82-a802-74b3753561e6)
+  
 >**Resultado**
 > -Quando o usuário clicou na função Login, foi redirecionado para a tela de Login do usuário.
 
