@@ -293,14 +293,14 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/f5b9110d-541c-4db8-819a-ae255108f634)
 
 # Tela - Receitas preferidas
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/TelaReceitasPref1.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/TelaReceitasPref2.png)
+
 
 ## Requisitos atendidos
 <ul>
-  <li>RF-001  Láisa Liane</li>
-  <li>RF-002  Láisa Liane</li>
-  <li>RF-003  Láisa Liane</li>
-  <li>RF-004  Láisa Liane</li>
   <li>RF-005  Láisa Liane</li>
+  <li>RF-007  Láisa Liane</li>
 </ul>
 
 ## Artefatos de funcionalidade
