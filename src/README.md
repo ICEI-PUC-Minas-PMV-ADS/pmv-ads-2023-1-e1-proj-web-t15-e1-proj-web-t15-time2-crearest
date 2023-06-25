@@ -1,11 +1,145 @@
-# Instruções de utilização
+<!DOCTYPE html>
+<html lang="pt-br">
 
-## Instalação do Site
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../assets/styles/homeStyles/home.css" />
+  <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <title>Home</title>
+</head>
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+<body>
+  <header>
+    <div class="headerCreat">
+      <div class="pages">
+        <a class="logo" href="../home/home.html"><img src="../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+        <a href="../receitas/receitasPref.html">Receitas Preferidas</a>
+        <a href="../../pages/receitas/receitas.html">Receitas</a>
+      </div>
+      <div class="login" id="userSection">
+        <!-- Aqui será substituído pelo usuário logado ou pelo trecho de login -->
+    </div>
+    </div>
+  </header>
+  <div class="conteudo">
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/LACTOSE.webp" class="card-img-top" alt="lactose" />
+      <div class="card-body">
+        <h5 class="card-title">LACTOSE</h5>
+        <p class="card-text">
+          A intolerância a esse carboidrato do leite ocorre por insuficiência ou ausência da enzima lactase no
+          organismo, sendo que, após ingestão, o açúcar permanece no
+          intestino na forma não absorvível e é fermentado pelas suas bactérias. Enquanto isso, a caseína, principal
+          proteína dos laticínios, pode desencadear resposta imune num
+          indivíduo com APLV (Alergia à Proteína do Leite de Vaca). Nesse sentido, os sintomas de ambas as condições
+          abrangem azia, diarreia, dores e inchaço abdominal.
+        </p>
+        <a href="https://eurofarma.com.br/artigos/o-que-e-a-intolerancia-a-lactose#:~:text=A%20lactose%20%C3%A9%20o%20principal,deste%20carboidrato%20no%20organismo2."
+          target="_blank" class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
 
-## Histórico de versões
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/gluten.jpg" class="card-img-top" alt="gluten" />
+      <div class="card-body">
+        <h5 class="card-title">GLÚTEN</h5>
+        <p class="card-text">
+          O glúten é uma combinação de proteínas, gliadina e glutenina, presente no trigo, cevada, malte, centeio e
+          derivados. A restrição a ele pode ser causada por
+          intolerância, sendo que o consumo provoca danos às paredes intestinais e prejudica a absorção de nutrientes,
+          ou, ainda, por uma doença celíaca de origem genética.
+        </p>
+        <a href="https://www.essentialnutrition.com.br/conteudos/gluten/" class="btn btn-primary">Saiba mais </a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/DIABETES.jpg" class="card-img-top" alt="diabetes" />
+      <div class="card-body">
+        <h5 class="card-title">DIABÉTES</h5>
+        <p class="card-text">
+          O que é? Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina
+          e/ou da incapacidade e/ou falta de insulina exercer
+          adequadamente seus efeitos, caracterizando altas taxa de açúcar no sangue (hiperglicemia) de forma permanente.
+        </p>
+        <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/diabetes/" class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/CRUSTACEOS.jpg" class="card-img-top" alt="crustaceos" />
+      <div class="card-body">
+        <h5 class="card-title">CRUSTÁCEOS</h5>
+        <p class="card-text">
+          A alergia a frutos do mar (moluscos e crustáceos) pode provocar choques anafiláticos, o que causa reações
+          graves e coloca a vida do acometido em risco. Os moluscos são
+          compostos por mexilhões, polvos, lulas, ostras e lesmas do mar. Já a classe dos crustáceos é composta por
+          camarões, caranguejos, lagostas e lagostins.
+        </p>
+        <a href="https://www.thermofisher.com/diagnostic-education/hcp/br/pt/allergy/food-allergies-diagnosis-treatment/shellfish-allergy-diagnosis-treatment.html"
+          class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/VEGETARIANISMO.webp" class="card-img-top" alt="vegetarianismo" />
+      <div class="card-body">
+        <h5 class="card-title">VEGETARIANISMO</h5>
+        <p class="card-text">
+          O vegetarianismo é uma prática alimentar que exclui o consumo de derivados animais como a carne vermelha e tem
+          como principal fonte de alimentos os vegetais e os
+          fungos. O vegetarianismo emergiu como um movimento alimentar significativo nas culturas ocidentais.
+        </p>
+        <a href="https://www.svb.org.br/vegetarianismo1" class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="../../assets/img/VEGANISMO.jpg" class="card-img-top" alt="veganismo" />
+      <div class="card-body">
+        <h5 class="card-title">VEGANISMO</h5>
+        <p class="card-text">
+          Veganismo basicamente significa humanos não explorarem outros animais, promovendo o estilo de vida vegano para
+          benefício das pessoas, animais e meio ambiente. Na
+          prática, o estilo de vida vegano dispensa todos os produtos derivados de animais.
+        </p>
+        <a href="https://veganismo.org.br/veganismo/" class="btn btn-primary">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Nutrição</a></li>
+              <li><a href="#">Indicações Médicas</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Sobre nós</h3>
+            <ul>
+              <li><a href="../../pages/users/contato.html">Contatos</a></li>
+              <li><a href="../../pages/users/quem-somos.html">Quem Somos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">CreatRest © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+  <script src="../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+</body>
+
+</html>
