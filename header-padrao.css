@@ -1,0 +1,38 @@
+.logo {
+  width: 80px;
+}
+
+/*Css do Header*/
+.headerCreat {
+  display: flex;
+  align-items: center;
+  background-color: #65a9a0;
+  color: #000000;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headerCreat :hover {
+  color: rgb(14, 13, 13);
+}
+
+.headerCreat a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerCreat .pages {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.headerCreat .login {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  column-gap: 30px;
+}
+
+/*Css do Header Final*/
