@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="../../assets/styles/receitas/receitas.css" />
+  <script src="../../assets/scripts/receitasScripts/receita.js"></script>
+  <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+  <title>CreatRest</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerCreat">
+      <div class="pages">
+        <a class="logo" href="../home/home.html"><img src="../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+        <a href="../receitas/receitasPref.html">Receitas Preferidas</a>
+        <a href="receitas.html">Receitas</a>
+      </div>
+      <div class="login" id="userSection">
+        <!-- Aqui será substituído pelo usuário logado ou pelo trecho de login -->
+      </div>
+    </div>
+    </div>
+  </header>
+  <div class="crea-container">
+    <div class="myBtnContainer">
+      <h2>Categoria de Receitas</h2>
+      <div class="btnspace">
+        <button class="btn active" onclick="filterSelection('all')">Todas</button>
+        <button class="btn" onclick="filterSelection('celiacos')">Celíacos</button>
+        <button class="btn" onclick="filterSelection('lactose')">Lactose</button>
+        <button class="btn" onclick="filterSelection('vegano')">Vegano</button>
+        <button class="btn" onclick="filterSelection('doenca')">Doença Renal</button>
+        <button class="btn" onclick="filterSelection('diabetes')">Diabetes</button>
+        <button class="btn" onclick="filterSelection('dislipidemia')">Dislipidemia</button>
+        <button class="btn" onclick="filterSelection('gastrite')">Gastrite Aguda</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card column celiacos" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Bolo mesclado sem gluten.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Bolo Mesclado</h5>
+          <a href="../receitas/celiacos/bolo-mesclado-sem-gluten.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column celiacos" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Canelone sem glúten.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Canelone sem Gluten</h5>
+          <a href="../receitas/celiacos/canelone-sem-gluten.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column celiacos" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Nhoque de espinafre sem glúten.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Nhoque de espinafre</h5>
+          <a href="../receitas/celiacos/nhoque-de-espinafre-sem-gluten.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column celiacos" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/paofrances-sem gluten.png" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Pão Frances sem Gluten</h5>
+          <a href="../receitas/celiacos/pao-frances-sem-gluten.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column celiacos" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Pavê de ninho com morango sem glúten.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Pavê de ninho com morango</h5>
+          <a href="../receitas/celiacos/pave-de-ninho-com-morango-sem-gluten.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column diabetes" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Bolo diet de limão.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Bolo diet de Limão</h5>
+          <a href="../receitas/diabetes/bolo-diet-de-limao.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column diabetes" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Caponata de berinjela.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Caponata de Berinjela</h5>
+          <a href="../receitas/diabetes/caponata-de-berinjela.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column diabetes" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Salada de Cevadinha.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Salada de cevadinha</h5>
+          <a href="../receitas/diabetes/salada-de-cevadinha.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column diabetes" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Salmão crocante com legumes.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Salmao crocante com legumes</h5>
+          <a href="../receitas/diabetes/salmao-crocante-com-legumes.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column diabetes" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Sanduíche de atum e abacate.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Sanduiche de Atum</h5>
+          <a href="../receitas/diabetes/sanduiche-de-atum-e-abacate.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column dislipidemia" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/ARROZ INTEGRAL COM CENOURA.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Arroz integral com Cenoura</h5>
+          <a href="../receitas/dislipidemia/arroz-integral-com-cenoura.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column dislipidemia" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Cookies de aveia.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Cookies de Aveia</h5>
+          <a href="../receitas/dislipidemia/cookies-de-aveia.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column dislipidemia" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Creme de Abacate.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Creme de Abacate</h5>
+          <a href="../receitas/dislipidemia/creme-de-abacate.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column dislipidemia" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Panqueca de berinjela.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Panqueca de Berinjela</h5>
+          <a href="../receitas/dislipidemia/panqueca-de-berinjela.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column dislipidemia" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Salada de Alface com Cenoura e Limão.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Salada de Alface com Cenoura e Limão</h5>
+          <a href="../receitas/dislipidemia/salada-de-alface-com-cenoura-e-limao.html" class="btn btn-success">Ver
+            Receita</a>
+        </div>
+      </div>
+      <div class="card column doenca" id="receita" style="width: 18rem">
+        <img class="card-img-top"
+          src="../../assets/img/imgReceitas/Arroz Cateto com Açafrão-da-terra, Ervilhas Frescas & Castanhas de Caju.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Arroz com Ervilhas e Castanhas</h5>
+          <a href="../receitas/doenca-renal/arroz-ervilhas-castanha.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column doenca" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Bebida Vegetal de Macadâmia.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Bebida Vegetal de Macadâmia</h5>
+          <a href="../receitas/doenca-renal/bebida-vegetal-de-macadamia.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column doenca" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Estrogonofe de Cogumelos Paris com Creme de Arroz.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Estrogonofe de Cogumelos Paris</h5>
+          <a href="../receitas/doenca-renal/estrogonofe-de-cogumelos-paris-com-creme-de-arroz.html"
+            class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column doenca" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Omelete de liquidificador.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Omelete de Liquidificador</h5>
+          <a href="../receitas/doenca-renal/omelete-de-liquidificador.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column doenca" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Ricota Vegetal.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Ricota Vegetal</h5>
+          <a href="../receitas/doenca-renal/ricota-vegetal.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column gastrite" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Almôndegas de berinjela.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Almôndegas de Berinjela</h5>
+          <a href="../receitas/gastrite-aguda/almondegas-de-berinjela.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column gastrite" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/receita-arrozcomfrango.jpeg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Arroz com iscas de Frango</h5>
+          <a href="../receitas/gastrite-aguda/arroz-iscas-frango.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column gastrite" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Canneloni de espinafre.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Canneloni de Espinafre</h5>
+          <a href="../receitas/gastrite-aguda/canneloni-de-espinafre.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column gastrite" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Hambúrguer de aveia.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Hamburguer de Aveia</h5>
+          <a href="../receitas/gastrite-aguda/hamburguer-de-aveia.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column gastrite" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Taco de alface com frango e legumes.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Taco de Alface com Frango e Legumes</h5>
+          <a href="../receitas/gastrite-aguda/taco-de-alface-com-frango-e-legumes.html" class="btn btn-success">Ver
+            Receita</a>
+        </div>
+      </div>
+      <div class="card column lactose" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Bolo de banana com amendoim.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Bolo de Banana com Amendoim</h5>
+          <a href="../receitas/lactose/bolo-de-banana-com-amendoim.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column lactose" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Bolo de chocolate.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Bolo de Chocolate</h5>
+          <a href="../receitas/lactose/bolo-de-chocolate.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column lactose" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Crepioca de banana com melado.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Crepioca de Banana com melado</h5>
+          <a href="../receitas/lactose/crepioca-de-banana-com-melado.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column lactose" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Pão com peito de peru.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Pão com peito de peru</h5>
+          <a href="../receitas/lactose/pao-com-peito-de-peru.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column lactose" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Smoothie de banana e frutas vermelhas.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Smoothie de Banana e Frutas Vermelhas</h5>
+          <a href="../receitas/lactose/smoothie-de-banana-e-frutas-vermelhas.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column vegano" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Lasanha de abobrinha vegana.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Lasanha de Abobrinha</h5>
+          <a href="../receitas/vegano/lasanha-de-abobrinha.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column vegano" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Moqueca de palmito pupunha.jpg"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Moqueca de palmito pupunha</h5>
+          <a href="../receitas/vegano/moqueca-de-palmito-pupunha.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column vegano" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Rabanada vegana.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Rabanada Vegana</h5>
+          <a href="../receitas/vegano/rabanada-vegana.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column vegano" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Salpicão vegano.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Salpicão Vegano</h5>
+          <a href="../receitas/vegano/salpicao-vegano.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+      <div class="card column vegano" id="receita" style="width: 18rem">
+        <img class="card-img-top" src="../../assets/img/imgReceitas/Strogonoff de palmito.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Strogonoff de palmito</h5>
+          <a href="../receitas/vegano/strogonoff-de-palmito.html" class="btn btn-success">Ver Receita</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Nutrição</a></li>
+              <li><a href="#">Indicações Médicas</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Sobre nós</h3>
+            <ul>
+              <li><a href="../../pages/users/contato.html">Contatos</a></li>
+              <li><a href="../../pages/users/quem-somos.html">Quem Somos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">CreatRest © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+    <script src="../../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+    <script src="../../assets/scripts/receitasScripts/filtro-receita.js"></script>
+</body>
+
+</html>
