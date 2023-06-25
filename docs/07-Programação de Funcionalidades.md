@@ -3,7 +3,7 @@
 Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as funcionalidades do sistema, priorizadas na Sprint 3. Assim também, serão apresentados os requisitos funcionais atendidos e a estrutura dos dados.
 
 
-<h1> Tela de Login (RF-01 e RF-02) </h1>
+<h1> Tela de Login (RF-014 e RF-015) </h1>
 
   <p> A tela de login , apresenta um design confortavel ao usuário para ter acesso ao seu perfil e receitas salvas <p>
 
@@ -12,8 +12,8 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
  <h2><strong>Requisitos Atendidos</strong></h2>
  
 <ul>
-  <li>RF-002</li>
-  <li>RF-003</li>
+  <li>RF-014 -  Através de todas as telas, o usuário deve conseguir retornar para a tela de Login. Láisa Liane</li>
+  <li>RF -015- O usuário deve ser capaz de realizar login informando email e senha. Láisa Liane</li>
 </ul>
 <hr>
 
@@ -259,7 +259,7 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 <p> 1. Abra um navegador de Internet e informe a seguinte URL: https://repl.it/Sf3l@#3ks</p> <br>
 <p>2. A tela da Home é a segunda funcionalidade exibida pelo aplicativo</p>
 
-# Tela das Receitas 
+# Tela das Receitas (RF-001, RF-002, RF-003, RF-004, RF-005 e RF-006)
 <p>A tela das receitas permite ao usuário conferir informações sobre a receita escolhida, incluindo a identificação da restrição, tempo de preparo, rendimento, grau de dificuldades, permite salvar a receita e no footer o usuário tem indicações de receitas para aquela restrição. </p>
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/125780065/4a384c66-a3f1-4a3b-aac7-880eed6d3df5)
@@ -269,11 +269,13 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Requisitos Atendidos
 <ul>
-  <li>RF-001 - Láisa Liane</li>
-  <li>RF-002 - Láisa Liane</li>
-  <li>RF-003 - Láisa Liane</li>
-  <li>RF-004 - Láisa Liane</li>
-  <li>RF-005 - Láisa Liane</li>
+  <li>RF-001- Quando o usuário acessar uma receita através da tela de Receitas, o site deve apresentar a página referente a receita escolhida pelo usuário;
+ - Láisa Liane</li>
+  <li>RF-002- Para cada receita, o site deve apresentar uma imagem correspondente; - Láisa Liane</li>
+  <li>RF-003- Cada receita deve conter informação de tempo, grau de dificuldades e porção;  - Láisa Liane</li>
+  <li>RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita;  - Láisa Liane</li>
+  <li>RF-005- A página deve apresentar a lista de ingredientes e o modo de preparo; - Láisa Liane</li>
+  <li>RF-006- Ao final da página deve ser apresentada receitas relacionadas a restrição escolhida.</li>
 </ul>
 
 ## Artefatos de Funcionalidade Atendidos
