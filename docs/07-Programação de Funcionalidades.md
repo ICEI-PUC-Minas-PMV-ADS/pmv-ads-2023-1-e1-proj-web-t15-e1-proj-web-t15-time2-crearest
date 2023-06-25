@@ -275,7 +275,7 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
   <li>RF-003- Cada receita deve conter informação de tempo, grau de dificuldades e porção;  - Láisa Liane</li>
   <li>RF-004- A página de receitas deve conter o nome da restrição alimentar identificada antes da receita;  - Láisa Liane</li>
   <li>RF-005- A página deve apresentar a lista de ingredientes e o modo de preparo; - Láisa Liane</li>
-  <li>RF-006- Ao final da página deve ser apresentada receitas relacionadas a restrição escolhida.</li>
+  <li>RF-006- Ao final da página deve ser apresentada receitas relacionadas a restrição escolhida. - Láisa Liane</li>
 </ul>
 
 ## Artefatos de Funcionalidade Atendidos
