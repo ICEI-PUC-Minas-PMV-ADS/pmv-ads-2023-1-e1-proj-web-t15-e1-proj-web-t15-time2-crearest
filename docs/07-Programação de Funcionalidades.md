@@ -299,8 +299,8 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Requisitos atendidos
 <ul>
-  <li>RF-005  Láisa Liane</li>
-  <li>RF-007  Láisa Liane</li>
+  <li>RF-011  Láisa Liane</li>
+  <li>RF-019  Láisa Liane</li>
 </ul>
 
 ## Artefatos de funcionalidade
