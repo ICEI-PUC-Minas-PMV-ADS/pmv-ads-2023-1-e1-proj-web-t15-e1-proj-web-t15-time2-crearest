@@ -303,3 +303,207 @@ Principais itens entregáveis: Programação das demais funcionalidades, Plano d
       </tbody>
  
 </table>       
+
+ # Sprint 5
+Prevista para o período correspondente entre  11/06 a 25/06.
+
+<h2> Requisitos Funcionais Atualizados</h2>
+
+<table>
+   <tbody>
+        <tr>
+            <th>RF-001</th>
+            <th>Quando o usuário acessar uma receita através da tela de Receitas, o site deve apresentar a página referente a receita escolhida pelo usuário;</th>
+            <th>ALTA</th>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+            <th>RF-002</th>
+            <th>Para cada receita, o site deve apresentar uma imagem correspondente;</th>
+            <th>ALTA</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <th>RF-003</th>
+            <th>Cada receita deve conter informação de tempo, grau de dificuldades e porção;</th>
+            <th> ALTA</th>
+        </tr>
+       </tbody>
+      <tbody>
+        <tr>
+         <th>RF-004</th>
+         <th>A página de receitas deve conter o nome da restrição alimentar identificada antes da receita.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+       <tbody>
+        <tr>
+         <th>RF-005</th>
+         <th>A página deve apresentar a lista de ingredientes e o modo de preparo;</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+     <tbody>
+        <tr>
+         <th>RF-006</th>
+         <th>Ao final da página deve ser apresentada receitas relacionadas a restrição escolhida</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+<tbody>
+        <tr>
+         <th>RF-007</th>
+         <th>Na página inicial o usuário deve conseguir realizar login;</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+ <tbody>
+        <tr>
+         <th>RF-008</th>
+         <th>Através de todas as telas, o usuário deve conseguir retornar para a tela de Cadastro.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+ <tbody>
+        <tr>
+         <th>RF-009</th>
+         <th>A logo, em todas as paginas, devem levar o cliente a página Home</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+ <tbody>
+        <tr>
+         <th>RF-010</th>
+         <th>Na página inicial o usuário deve conseguir realizar o seu cadastro</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+ <tbody>
+        <tr>
+         <th>RF-011</th>
+         <th>O usuário deve ser capaz de registrar-se informando nome, email e senha</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+ <tbody>
+        <tr>
+         <th>RF-012</th>
+         <th>Através de todas as telas, o usuário deve conseguir retornar para a tela de Login.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+  <tbody>
+        <tr>
+         <th>RF-013</th>
+         <th>Na página inicial do site, deve conter notícias dinâmicas sobre o restrições alimentares.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+  <tbody>
+        <tr>
+         <th>RF-014</th>
+         <th>O usuário deve ser capaz de realizar login informando email e senha</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+  <tbody>
+        <tr>
+         <th>RF-015</th>
+         <th>O usuário deve conseguir filtrar as receitas por restrição alimentar;</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+  <tbody>
+        <tr>
+         <th>RF-016</th>
+         <th>Através da tela de Receitas o usuário deve conseguir ter acesso as receitas</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody>
+  <tbody>
+        <tr>
+         <th>RF-017</th>
+         <th>O usuário deve ter acesso as receitas salvas</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody> 
+  <tbody>
+        <tr>
+         <th>RF-018</th>
+         <th>A página deve conter um link para os contatos dos criadores do site</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody> 
+  <tbody>
+        <tr>
+         <th>RF-019</th>
+         <th>A página de contatos deve ter um formulário de contato.</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody> 
+       <tbody>
+        <tr>
+         <th>RF-020</th>
+         <th>O formulário de contato deve ser capaz de enviar mensagens por e-mail</th>
+         <th>ALTA</th>
+        </tr>
+      </tbody> 
+</table>       
+
+
+
+### Tarefas 
+<p>Para as tasks dessa sprint, as tarefas foram atribuidas conforme abaixo:</p>
+<table>
+   <tbody>
+        <tr>
+            <th>Tela- Home Page</th>
+            <th>Lorenzo Grei</th>
+        </tr>
+     </tbody>
+     <tbody>
+        <tr>
+            <th>Tela - Login</th>
+            <th>Láisa Liane</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+            <th>Telas das Receitas</th>
+            <th>Láisa Liane</th>
+        </tr>
+       </tbody>
+        <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela Receitas - Salvar Receitas Preferidas</th>
+         <th>Vinicius Vieira</th>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+         <th>Tela - Funcionalidade tela home - Categoria de Receitas  </th>
+         <th>Maria Júlia</th>
+        </tr>
+      </tbody>
+         <tbody>
+        <tr>
+         <th>Tela - Quem Somos </th>
+         <th>Láisa Liane</th>
+        </tr>
+      </tbody>
+         <tbody>
+        <tr>
+         <th>Tela - Registrar </th>
+         <th>Maria Júlia</th>
+        </tr>
+      </tbody>
+        <tbody>
+        <tr>
+         <th>Tela - Contato </th>
+         <th>Bruno Cesar</th>
+        </tr>
+      </tbody>
+ 
+</table>       
