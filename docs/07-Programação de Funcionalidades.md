@@ -295,11 +295,11 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Requisitos atendidos
 <ul>
-  <li>RF-001</li>
-  <li>RF-002</li>
-  <li>RF-003</li>
-  <li>RF-004</li>
-  <li>RF-005</li>
+  <li>RF-001  Láisa Liane</li>
+  <li>RF-002  Láisa Liane</li>
+  <li>RF-003  Láisa Liane</li>
+  <li>RF-004  Láisa Liane</li>
+  <li>RF-005  Láisa Liane</li>
 </ul>
 
 ## Artefatos de funcionalidade
@@ -310,36 +310,76 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 ## Estrutura de dados
 
-          <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <link rel="stylesheet" href="../../assets/styles/receitas/receitas.css" />
-        <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
-        <title>CreatRest</title>
-      </head>
+             <!DOCTYPE html>
+     <html lang="en">
 
-      <body>
-        <header>
-          <div class="topnav">
-            <a class="" href="#">Menu</a>
-            <a href="receitas.html">Receitas</a>
-            <a class="register" href="/users/register.html">Registrar</a>
-            <a class="log" href="/users/login.html">Login</a>
-          </div>
-        </header>
-        <div class="row">
-          <div class="content">
-            <a href="celiacos/bolo-mesclado-sem-gluten.html">
-              <div class="receita">
-              </div>
-        </a>
+    <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+      <link rel="stylesheet" href="../../assets/styles/receitas/receitasPref.css" />
+      <script src="../../assets/scripts/receitasScripts/receita.js"></script>
+      <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+    <title>CreatRest</title>
+    </head>
+
+    <body>
+    <header>
+    <div class="headerCreat">
+      <div class="pages">
+        <a class="logo" href="../home/home.html"><img src="../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+        <a href="../receitas/receitasPref.html">Receitas Preferidas</a>
+        <a href="receitas.html">Receitas</a>
       </div>
+      <div class="login" id="userSection">
     </div>
-    <script src="../../assets/scripts/receitasScripts/receita.js"></script>
-    <script>getItemLocalStorage();</script>
-      </body>
-    </html>
+        </header>
+       <div class="cardReceita">
+        <div id="receitaDisplay">
+      <div class="receitaCard">
+        <a href="">
+          <div>
+          </div>
+        </a>
+        </div>
+        </div>
+        </div>
+          <div class="footer-clean">
+                <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="../receitas/celiacos/bolo-mesclado-sem-gluten.html">Consultoria</a></li>
+              <li><a href="../receitas/celiacos/bolo-mesclado-sem-gluten.html">Nutrição</a></li>
+              <li><a href="../receitas/celiacos/bolo-mesclado-sem-gluten.html">Indicações Médicas</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Sobre nós</h3>
+            <ul>
+              <li><a href="../users/contato.html">Contatos</a></li>
+              <li><a href="../users/quem-somos.html">Quem Somos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">CreatRest © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <script src="../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+
+       </body>
+            <script>getItemLocalStorage();</script>
+      </body>
+
+</html>
 
 
 # Categoria de Receitas
