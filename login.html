@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="../../assets/styles/users/login.css">
+  <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon">
+  <title>Login CreatRest
+  </title>
+</head>
+
+<body class="bg-image">
+  <header>
+    <div class="headerCreat">
+      <div class="pages">
+        <a class="logo" href="../home/home.html"><img src="../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+        <a href="../receitas/receitasPref.html">Receitas Preferidas</a>
+        <a href="../../pages/receitas/receitas.html">Receitas</a>
+      </div>
+      <div class="login">
+        <a class="register" href="/pages/users/register.html">Registrar</a>
+        <a class="log" href="/pages/users/login.html">Login</a>
+      </div>
+    </div>
+  </header>
+  <section class="login-content">
+    <div class="mask d-flex align-items-center h-300">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">Faça Seu login</h2>
+
+                <form>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" class="form-control form-control-lg" / required>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="loginPassword">Senha</label>
+                    <input type="password" id="loginPassword" class="form-control form-control-lg" / required>
+                  </div>
+                  <div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button onclick="login()" class="btn btn-success  btn-lg gradient-custom-4 text-body">Login</button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Nutrição</a></li>
+              <li><a href="#">Indicações Médicas</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Sobre nós</h3>
+            <ul>
+              <li><a href="../../pages/users/contato.html">Contatos</a></li>
+              <li><a href="../../pages/users/quem-somos.html">Quem Somos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">CreatRest © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../../assets/scripts/autenticacao/guarda-de-rota.js"></script>
+  <script src="../../assets/scripts/autenticacao/login.js"></script>
+</body>
+
+</html>
