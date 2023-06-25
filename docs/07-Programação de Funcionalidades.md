@@ -38,8 +38,9 @@ Nessa sessão, serão apresentadas as telas que foram desevolvidas conforme as f
 
 <h1>Tela da HOME</h1>
   <p>A tela principal do nosso sistema apresenta notícias e informações sobre restrições alimentares. Na página contêm HTML, CSS e JavaScript dando todo a estilização e função necessária, para que o site fique interativo para com o usuário.</p>
-  
-  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/assets/128434710/94b7aef1-bc20-4a53-b9ba-4d3c19131e85)
+   
+![imagem-home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/home1.png)
+![imagem-home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time2-crearest/blob/main/docs/img/home2.png)
 
 <h2><strong>Requisitos Atendidos</strong></h2>
 <ul>
