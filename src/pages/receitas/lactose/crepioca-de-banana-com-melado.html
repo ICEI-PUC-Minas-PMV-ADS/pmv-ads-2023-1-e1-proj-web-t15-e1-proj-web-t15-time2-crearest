@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../assets/styles/receitas/receita.css" />
+    <script src="../../../assets/scripts/receitasScripts/receita.js"></script>
+    <link rel="icon" href="../../../assets/img/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Crepioca de banana com melado</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerCreat">
+        <div class="pages">
+          <a class="logo" href="../../home/home.html"><img src="../../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+          <a href="../receitas.html">Receitas</a>
+        </div>
+        <div class="login" id="userSection">
+          <!-- Aqui será substituído pelo usuário logado ou pelo trecho de login -->
+        </div>
+      </div>
+    </header>
+    <div class="barra-categoria" id="test">Categoria: Lactose</div>
+    <main class="main">
+      <h3 class="nome-receita" id="nomeReceita">Crepioca de banana com melado</h3>
+      <img class="img-receita" id="imgReceita" src="../../../assets/img/imgReceitas/Crepioca de banana com melado.jpg" alt="prato de refeicao" />
+      <div class="informacoes-preparo">
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/cronometro.png" alt="cronômetro representando o tempo de duração" />
+          </div>
+          <div class="dados-receita__info">
+            Tempo de preparo:
+            <span>25 min</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/portion.png" alt="ícone representando quantidade de porções" />
+          </div>
+          <div class="dados-receita__info">
+            Rendimento:
+            <span>1 porçao</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/difiuldade.png" alt="ícone representando o nível de dificuldade" />
+          </div>
+          <div class="dados-receita__info">
+            Dificuldade:
+            <span>Fácil</span>
+          </div>
+        </div>
+        <div class="save-itemButton">
+          <button onclick="salvarReceitaLocalStorage()">Salvar Receita</button>
+        </div>
+      </div>
+      <section>
+        <h4 class="titulo-secao">Ingredientes</h4>
+
+        <ul class="lista-ingredientes">
+          <li class="list-group-item">2 colheres (sopa) de goma de tapioca</li>
+          <li class="list-group-item">2 colheres (sopa) de purê de banana</li>
+          <li class="list-group-item">1 banana em rodelas</li>
+          <li class="list-group-item">1 colher (sopa) de melado</li>
+          <li class="list-group-item">Canela a gosto</li>
+          <li class="list-group-item">1 colher (sopa) de água</li>
+          <li class="list-group-item">Sal a gosto</li>
+        </ul>
+      </section>
+      <section>
+        <h4 class="titulo-secao">Modo de Preparo</h4>
+        <ol class="preparo__text">
+          <li class="list-group-item">Em uma tigela, misture todos os ingredientes do recheio e reserve.</li>
+          <li class="list-group-item">Para a massa, misture a goma com o leite vegetal e despeje sobre uma frigideira.</li>
+          <li class="list-group-item">Espere uns segundos até a massa ficar consistente, espalhe o recheio sobre metade dela e dobre ao meio. Sirva.</li>
+        </ol>
+      </section>
+    </main>
+    <aside class="receitas-relacionadas-container">
+      <h4 class="">Receitas Relacionadas</h4>
+      <div class="receitas-relacionadas">
+        <div class="receitas-relacionadas__receita">
+          <a href="../lactose/bolo-de-banana-com-amendoim.html">
+            <img src="../../../assets/img/imgReceitas/Bolo de banana com amendoim.jpg" alt="Imagem de receita relacionada: Bolo de Banana com Amendoim" />
+            <span>Bolo de Banana com Amendoim</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../lactose/bolo-de-chocolate.html">
+            <img src="../../../assets/img/imgReceitas/Bolo de chocolate.jpg" alt="Imagem de receita relacionada: Bolo de Chocolate" />
+            <span>Bolo de Chocolate</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../lactose/pao-com-peito-de-peru.html">
+            <img src="../../../assets/img/imgReceitas/Pão com peito de peru.jpg" alt="Imagem de receita relacionada:Pão com Peito de Peru" />
+            <span>Pão com Peito de Peru</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../lactose/smoothie-de-banana-e-frutas-vermelhas.html">
+            <img src="../../../assets/img/imgReceitas/Smoothie de banana e frutas vermelhas.jpg" alt="Imagem de receita relacionada: Smoothie de Banana e Frutas Vermelhas" />
+            <span>Smoothie de Banana e Frutas Vermelhas</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <script src="../../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+  </body>
+</html>

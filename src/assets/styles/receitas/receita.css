@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Tienne:wght@700&display=swap');
+@import url('../global/_header.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.gastrite {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.barra-categoria {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    /* margin-top: 15px; */
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+}
+
+.barra-categoria a {
+    text-decoration: none;
+}
+
+.pesquisar {
+    display: flex;
+    column-gap: 5px;
+}
+
+.pesquisar a {
+    display: flex;
+    align-items: center;
+}
+
+.nome-receita {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo__receitas {
+    font-size: 24px;
+    margin: 20px 0 20px;
+}
+
+.img-receita {
+    max-width: 325px !important;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #bcc7c6;
+}
+
+.titulo-secao {
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    background-color: #5ea7a2;
+}
+
+.informacoes-preparo {
+    display: flex;
+    margin: 20px 0;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.informacoes-preparo .dados-receita {
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    column-gap: 15px;
+    align-items: center;
+    background-color: #5ea7a2;
+    color: white;
+}
+
+.informacoes-preparo .dados-receita img {
+    width: 50px;
+}
+
+.dados-receita__info {
+    flex-shrink: 1;
+}
+
+.dados-receita__info span {
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.lista-ingredientes {
+    text-align: left;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid #dee2e6;
+}
+
+.preparo {
+    font-size: 24px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.preparo__text {
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.receitas-relacionadas-container {
+    margin-top: 50px;
+    padding: 10px 100px;
+}
+
+.receitas-relacionadas {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.receitas-relacionadas__receita img {
+    display: block;
+    max-width: 190px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.receitas-relacionadas__receita a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Css do Footer*/
+.footer-clean {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 50px 0;
+    background-color: #65a9a0;
+    color: #ffffff;
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-clean ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+    opacity: 1;
+}
+
+.footer-clean .item.social {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-clean .item.social {
+        text-align: center;
+    }
+}
+
+.footer-clean .item.social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-clean .item.social>a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+    .footer-clean .item.social>a {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-clean .item.social>a {
+        margin-top: 10px;
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+/*Css do Footer Final*/
+
+
+button{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }

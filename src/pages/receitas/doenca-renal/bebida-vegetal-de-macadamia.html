@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../assets/styles/receitas/receita.css" />
+    <script src="../../../assets/scripts/receitasScripts/receita.js"></script>
+    <link rel="icon" href="../../../assets/img/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Bebida Vegetal de Macadâmia</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerCreat">
+        <div class="pages">
+          <a class="logo" href="../../home/home.html"><img src="../../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+          <a href="../receitas.html">Receitas</a>
+        </div>
+        <div class="login" id="userSection">
+          <!-- Aqui será substituído pelo usuário logado ou pelo trecho de login -->
+        </div>
+      </div>
+    </header>
+    <div class="barra-categoria" id="test">Categoria: Doença Renal</div>
+    <main class="main">
+      <h3 class="nome-receita" id="nomeReceita">Bebida Vegetal de Macadâmia</h3>
+      <img class="img-receita" id="imgReceita" src="../../../assets/img/imgReceitas/Bebida Vegetal de Macadâmia.jpg" alt="prato de refeicao" />
+      <div class="informacoes-preparo">
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/cronometro.png" alt="cronômetro representando o tempo de duração" />
+          </div>
+          <div class="dados-receita__info">
+            Tempo de preparo:
+            <span>10 min</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/portion.png" alt="ícone representando quantidade de porções" />
+          </div>
+          <div class="dados-receita__info">
+            Rendimento:
+            <span>10 porções</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/difiuldade.png" alt="ícone representando o nível de dificuldade" />
+          </div>
+          <div class="dados-receita__info">
+            Dificuldade:
+            <span>Fácil</span>
+          </div>
+        </div>
+        <div class="save-itemButton">
+          <button onclick="salvarReceitaLocalStorage()">Salvar Receita</button>
+        </div>
+      </div>
+      <section>
+        <h4 class="titulo-secao">Ingredientes</h4>
+
+        <ul class="lista-ingredientes">
+          <li class="list-group-item">200g de macadâmia sem sal</li>
+          <li class="list-group-item">300mL de água filtrada gelada</li>
+        </ul>
+      </section>
+      <section>
+        <h4 class="titulo-secao">Modo de Preparo</h4>
+        <ol class="preparo__text">
+          <li class="list-group-item">Deixe a macadâmia hidratar por 12 horas na geladeira.</li>
+          <li class="list-group-item">Dispense a água de hidratação e bata no liquidificador 300mL de água filtrada e gelada.</li>
+          <li class="list-group-item">Separe a bebida da massa de macadâmia com o auxílio de um tecido (voal), torcendo bem.</li>
+        </ol>
+      </section>
+    </main>
+    <aside class="receitas-relacionadas-container">
+      <h4 class="">Receitas Relacionadas</h4>
+      <div class="receitas-relacionadas">
+        <div class="receitas-relacionadas__receita">
+          <a href="../doenca-renal/arroz-ervilhas-castanha.html">
+            <img
+              src="../../../assets/img/imgReceitas/Arroz Cateto com Açafrão-da-terra, Ervilhas Frescas & Castanhas de Caju.jpg"
+              alt="Imagem de receita relacionada: Arroz com Ervihas e Castanhas"
+            />
+            <span>Arroz com Ervihas e Castanhas</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../doenca-renal/estrogonofe-de-cogumelos-paris-com-creme-de-arroz.html">
+            <img
+              src="../../../assets/img/imgReceitas/Estrogonofe de Cogumelos Paris com Creme de Arroz.jpg"
+              alt="Imagem de receita relacionada: Estrogonofe de Cogumelos Paris com Creme de Arroz"
+            />
+            <span>Estrogonofe de Cogumelos Paris</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../doenca-renal/omelete-de-liquidificador.html">
+            <img src="../../../assets/img/imgReceitas/Omelete de liquidificador.jpg" alt="Imagem de receita relacionada:Omelete de Liquidificador" />
+            <span>Omelete de Liquidificador</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../doenca-renal/ricota-vegetal.html">
+            <img src="../../../assets/img/imgReceitas/Ricota Vegetal.jpg" alt="Imagem de receita relacionada: Ricota Vegetal" />
+            <span>Ricota Vegetal</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <div class="footer-clean">
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Serviços</h3>
+              <ul>
+                <li><a href="#">Consultoria</a></li>
+                <li><a href="#">Nutrição</a></li>
+                <li><a href="#">Indicações Médicas</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Sobre nós</h3>
+              <ul>
+                <li><a href="../../users/contato.html">Contatos</a></li>
+                <li><a href="../../users/quem-somos.html">Quem Somos</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a>
+              <a href="#"><i class="icon ion-social-twitter"></i></a>
+              <a href="#"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright">CreatRest © 2023</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="../../assets/styles/users/register.css" />
+  <title>Registrar</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerCreat">
+      <div class="pages">
+        <a class="logo" href="../home/home.html"><img src="../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+        <a href="../../pages/receitas/receitas.html">Receitas</a>
+      </div>
+      <div class="login">
+        <a class="register" href="/pages/users/register.html">Registrar</a>
+        <a class="log" href="/pages/users/login.html">Login</a>
+      </div>
+    </div>
+  </header>
+  <section class="vh-100 bg-image"
+    style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp')">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">Registre-se</h2>
+                <form>
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="signupName">Nome *</label>
+                    <input type="text" id="signupName" class="form-control form-control-lg" />
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="signupEmail">E-mail *</label>
+                    <input type="email" id="signupEmail" class="form-control form-control-lg" />
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="signupPassword">Senha *</label>
+                    <input type="password" id="signupPassword" class="form-control form-control-lg" />
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example4cdg">Repita sua senha *</label>
+                    <input type="password" id="signupPasswordConfirm" class="form-control form-control-lg" />
+                  </div>
+                  <div class="form-check d-flex justify-content-center mb-5">
+                    <label class="form-check-label" for="form2Example3g">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="signupTerms" />
+                      <a href="#!" class="text-body">Eu concordo com os <u> Termos de uso e Serviços *</u></a>
+                    </label>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" onclick="signup()"
+                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Registrar</button>
+                  </div>
+                  <p class="text-center text-muted mt-5 mb-0">
+                    Já possui cadastro? <a href="../users/login.html" class="fw-bold text-body"><u>Faça Login</u></a>
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Serviços</h3>
+            <ul>
+              <li><a href="#">Consultoria</a></li>
+              <li><a href="#">Nutrição</a></li>
+              <li><a href="#">Indicações Médicas</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Sobre nós</h3>
+            <ul>
+              <li><a href="../users/contato.html">Contatos</a></li>
+              <li><a href="../users/quem-somos.html">Quem Somos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">CreatRest © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../../assets/scripts/autenticacao/guarda-de-rota.js"></script>
+  <script src="../../assets/scripts/autenticacao/register.js"></script>
+</body>
+
+</html>

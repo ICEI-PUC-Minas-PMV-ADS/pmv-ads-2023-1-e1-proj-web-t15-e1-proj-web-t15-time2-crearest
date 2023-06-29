@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../assets/styles/receitas/receita.css" />
+    <script src="../../../assets/scripts/receitasScripts/receita.js"></script>
+    <link rel="icon" href="../../../assets/img/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Caponata de berinjela</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerCreat">
+        <div class="pages">
+          <a class="logo" href="../../home/home.html"><img src="../../../assets/img/Logo.png" alt="" style="width: 70px" /></a>
+          <a href="../receitas.html">Receitas</a>
+        </div>
+        <div class="login" id="userSection">
+          <!-- Aqui será substituído pelo usuário logado ou pelo trecho de login -->
+        </div>
+      </div>
+    </header>
+    <div class="barra-categoria" id="test">Categoria: Diabetes</div>
+    <main class="main">
+      <h3 class="nome-receita" id="nomeReceita">Caponata de berinjela</h3>
+      <img class="img-receita" id="imgReceita" src="../../../assets/img/imgReceitas/Caponata de berinjela.jpg" alt="prato de refeicao" />
+      <div class="informacoes-preparo">
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/cronometro.png" alt="cronômetro representando o tempo de duração" />
+          </div>
+          <div class="dados-receita__info">
+            Tempo de preparo:
+            <span>25min (+30min de descanso) (+6h de geladeira)</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/portion.png" alt="ícone representando quantidade de porções" />
+          </div>
+          <div class="dados-receita__info">
+            Rendimento:
+            <span>8 porções</span>
+          </div>
+        </div>
+        <div class="dados-receita">
+          <div>
+            <img src="../../../assets/img/imgReceitas/difiuldade.png" alt="ícone representando o nível de dificuldade" />
+          </div>
+          <div class="dados-receita__info">
+            Dificuldade:
+            <span>Fácil</span>
+          </div>
+        </div>
+        <div class="save-itemButton">
+          <button onclick="salvarReceitaLocalStorage()">Salvar Receita</button>
+        </div>
+      </div>
+      <section>
+        <h4 class="titulo-secao">Ingredientes</h4>
+
+        <ul class="lista-ingredientes">
+          <li class="list-group-item">3 berinjelas em cubos</li>
+          <li class="list-group-item">Sal e pimenta-do-reino a gosto</li>
+          <li class="list-group-item">1/2 xícara (chá) de azeite</li>
+          <li class="list-group-item">1 cebola picada</li>
+          <li class="list-group-item">1 pimentão vermelho picado</li>
+          <li class="list-group-item">1 pimentão amarelo picado</li>
+          <li class="list-group-item">1/2 xícara (chá) de azeitona verde sem fatiada</li>
+          <li class="list-group-item">2 folhas de louro</li>
+          <li class="list-group-item">1/2 xícara (chá) de uvas-passas pretas sem sementes</li>
+          <li class="list-group-item">2 colheres (chá) de açúcar</li>
+          <li class="list-group-item">6 colheres (sopa) de vinagre</li>
+        </ul>
+      </section>
+      <section>
+        <h4 class="titulo-secao">Modo de Preparo</h4>
+        <ol class="preparo__text">
+          <li class="list-group-item">
+            Espalhe a berinjela em uma fôrma e polvilhe com sal. Deixe descansar por 30 minutos. Lave rapidamente em água corrente e seque com papel-toalha.
+          </li>
+          <li class="list-group-item">Em uma frigideira grande e larga, em fogo médio, aqueça 3 colheres (sopa) do azeite e refogue a cebola e os pimentões por 5 minutos.</li>
+          <li class="list-group-item">
+            Adicione a berinjela, a azeitona, o louro, a uva-passa, o açúcar, o vinagre, sal, pimenta e cozinhe por 5 minutos, mexendo de vez em quando.
+          </li>
+          <li class="list-group-item">
+            Desligue e deixe esfriar. Espalhe em um refratário e regue com o restante do azeite. Tampe e leve à geladeira por 6 horas antes de servir.
+          </li>
+        </ol>
+      </section>
+    </main>
+    <aside class="receitas-relacionadas-container">
+      <h4 class="">Receitas Relacionadas</h4>
+      <div class="receitas-relacionadas">
+        <div class="receitas-relacionadas__receita">
+          <a href="../diabetes/bolo-diet-de-limao.html">
+            <img src="../../../assets/img/imgReceitas/Bolo diet de limão.jpg" alt="Imagem de receita relacionada: Bolo Diet de Limão" />
+            <span>Bolo Diet de Limão</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../diabetes/salada-de-cevadinha.html">
+            <img src="../../../assets/img/imgReceitas/Salada de Cevadinha.jpg" alt="Imagem de receita relacionada: Salada de Cevadinha" />
+            <span>Salada de Cevadinha</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../diabetes/salmao-crocante-com-legumes.html">
+            <img src="../../../assets/img/imgReceitas/Salmão crocante com legumes.jpg" alt="Imagem de receita relacionada: Salmão Crocante com Legumes" />
+            <span>Salmão Crocante com Legumes</span>
+          </a>
+        </div>
+        <div class="receitas-relacionadas__receita">
+          <a href="../diabetes/sanduiche-de-atum-e-abacate.html">
+            <img src="../../../assets/img/imgReceitas/Sanduíche de atum e abacate.jpg" alt="Imagem de receita relacionada: Sanduíche de Atum e Abacate" />
+            <span>Sanduíche de Atum e Abacate</span>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <div class="footer-clean">
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Serviços</h3>
+              <ul>
+                <li><a href="#">Consultoria</a></li>
+                <li><a href="#">Nutrição</a></li>
+                <li><a href="#">Indicações Médicas</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Sobre nós</h3>
+              <ul>
+                <li><a href="../../users/contato.html">Contatos</a></li>
+                <li><a href="../../users/quem-somos.html">Quem Somos</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a>
+              <a href="#"><i class="icon ion-social-twitter"></i></a>
+              <a href="#"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright">CreatRest © 2023</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../../../assets/scripts/autenticacao/script-controle-usuario-logado.js"></script>
+  </body>
+</html>
